@@ -2,6 +2,11 @@
 ## Step 1. Pretrain
 ***
 
+### 0) Download Optimizer
+
+Download optimizer from https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer
+Rename directory into Ranger.
+
 ### 1) Annotate sample images
 
 Choose 1,000 sample imagery from entire dataset. Human anotates 1,000 images among 3 categories : Urban, Rural, and Uninhabited. Make annotation result into single file and save this file and sample image (Refer to "lao_1_annotation" directory)
