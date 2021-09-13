@@ -103,4 +103,3 @@ Example
 
 ```python3 3_extract_cluster.py --name lao_1 --img LAO --city_cnum 8 --rural_cnum```
 
-Someting here ... 
