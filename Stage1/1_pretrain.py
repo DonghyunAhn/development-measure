@@ -55,10 +55,10 @@ def main(args):
 
 
 
-    origin = 'data/'+args.img+'/'
+    origin = '../data/'+args.img+'/'
 
 
-    f = open('./meta_data/'+args.img+'_metadata.csv', 'w', encoding='utf-8', newline='')
+    f = open('../meta_data/'+args.img+'_metadata.csv', 'w', encoding='utf-8', newline='')
     wr = csv.writer(f)
     wr.writerow(['img_name'])
 
@@ -76,8 +76,8 @@ def main(args):
     #print(args.arch)
     #ARCH = args.arch
 
-    train_labeled = ProxyDataset(metadata = "./data/"+args.name+"_annotation/labelling_result.csv", 
-                                 root_dir = "./data/"+args.name+"_annotation/gis",
+    train_labeled = ProxyDataset(metadata = "../data/"+args.name+"_annotation/labelling_result.csv", 
+                                 root_dir = "../data/"+args.name+"_annotation/gis",
                                  transform=transforms.Compose([
                                      transforms.RandomGrayscale(p=1.0),
                                      transforms.RandomApply([transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)], p=0.8),
@@ -87,7 +87,7 @@ def main(args):
                                       transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
                                  ]))
     
-    train_unlabeled = UnlabeledDataset(root_dir = "./data/"+args.img,
+    train_unlabeled = UnlabeledDataset(root_dir = "../data/"+args.img,
                                        transform=transforms.Compose([
                                           transforms.RandomGrayscale(p=1.0),
                                           transforms.RandomApply([transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)], p=0.8),
@@ -118,7 +118,7 @@ def main(args):
     for epoch in range(EPOCHS):
         train(train_labeled_loader, train_unlabeled_loader, model, ema_model, optimizer, epoch, BATCH_SIZE)
         if (epoch + 1) % EVALUATION_EPOCHS == 0:
-            save_checkpoint({'state_dict': model.state_dict()}, "./checkpoint", model, epoch + 1, args.name+'_resnet18')
+            save_checkpoint({'state_dict': model.state_dict()}, "../checkpoint", model, epoch + 1, args.name+'_resnet18')
             
     
 
@@ -131,7 +131,7 @@ def main(args):
                       transforms.ToTensor(),
                       transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
     
-    testset = GPSNDataset('./meta_data/'+args.img+'_metadata.csv', './data/'+args.img, test_transform)
+    testset = GPSNDataset('../meta_data/'+args.img+'_metadata.csv', './data/'+args.img, test_transform)
     testloader = torch.utils.data.DataLoader(testset, batch_size=256, shuffle=False, num_workers=4)
     
     
@@ -147,7 +147,7 @@ def main(args):
         
     print("Eval Finish")
     
-    f = open('./meta_data/'+args.img+'_metadata.csv', 'r', encoding='utf-8')
+    f = open('../meta_data/'+args.img+'_metadata.csv', 'r', encoding='utf-8')
     images = []
     
     rdr = csv.reader(f)
@@ -156,9 +156,9 @@ def main(args):
     f.close()
     print(images)
     images.pop(0)
-    f1 = open('./meta_data/meta_city_'+args.name+'.csv', 'w', encoding='utf-8')
-    f2 = open('./meta_data/meta_rural_'+args.name+'.csv', 'w', encoding='utf-8')
-    f3 = open('./meta_data/meta_nature_'+args.name+'.csv', 'w', encoding='utf-8')
+    f1 = open('../meta_data/meta_city_'+args.name+'.csv', 'w', encoding='utf-8')
+    f2 = open('../meta_data/meta_rural_'+args.name+'.csv', 'w', encoding='utf-8')
+    f3 = open('../meta_data/meta_nature_'+args.name+'.csv', 'w', encoding='utf-8')
     wr1 = csv.writer(f1)
     wr1.writerow(['img_name','label'])
     wr2 = csv.writer(f2)
