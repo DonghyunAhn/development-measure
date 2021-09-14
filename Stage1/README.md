@@ -70,8 +70,46 @@ Example
 ```python3 2_train_cluster.py --name lao_1 --img LAO```
 
 Example output
-
-
+```
+score of cluster 2 in city is 0.42540857195854187
+score of cluster 2 in rural is 0.3261856436729431
+score of cluster 3 in city is 0.39280208945274353
+score of cluster 3 in rural is 0.28625282645225525
+score of cluster 4 in city is 0.3649527132511139
+score of cluster 4 in rural is 0.30611342191696167
+score of cluster 5 in city is 0.3576197922229767
+score of cluster 5 in rural is 0.3114365339279175
+score of cluster 6 in city is 0.3412483036518097
+score of cluster 6 in rural is 0.3132252097129822
+score of cluster 7 in city is 0.33266395330429077
+score of cluster 7 in rural is 0.29889968037605286
+score of cluster 8 in city is 0.3302342891693115
+score of cluster 8 in rural is 0.30160173773765564
+score of cluster 9 in city is 0.32167160511016846
+score of cluster 9 in rural is 0.30135852098464966
+score of cluster 10 in city is 0.3545919954776764
+score of cluster 10 in rural is 0.2908525764942169
+score of cluster 11 in city is 0.338534951210022
+score of cluster 11 in rural is 0.29690173268318176
+score of cluster 12 in city is 0.33687207102775574
+score of cluster 12 in rural is 0.29597207903862
+score of cluster 13 in city is 0.34778445959091187
+score of cluster 13 in rural is 0.29904696345329285
+score of cluster 14 in city is 0.34466126561164856
+score of cluster 14 in rural is 0.2922791540622711
+score of cluster 15 in city is 0.3294903039932251
+score of cluster 15 in rural is 0.29506686329841614
+score of cluster 16 in city is 0.35617536306381226
+score of cluster 16 in rural is 0.29051804542541504
+score of cluster 17 in city is 0.31365838646888733
+score of cluster 17 in rural is 0.2895110845565796
+score of cluster 18 in city is 0.2882598340511322
+score of cluster 18 in rural is 0.285915344953537
+score of cluster 19 in city is 0.3144502341747284
+score of cluster 19 in rural is 0.2863290011882782
+score of cluster 20 in city is 0.30703505873680115
+score of cluster 20 in rural is 0.290301650762558
+```
 
 ### 2) Decide number of clusters
 
