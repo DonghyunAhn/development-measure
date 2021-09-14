@@ -116,6 +116,7 @@ score of cluster 20 in rural is 0.290301650762558
 Human decide number of clusters referring to silhouette scores in previous step.
 
 ![Alt text](sil_example.png)
+
 Choose cluster number which makes a peak (ex) 11 for city, 8 for rural)
 
 
