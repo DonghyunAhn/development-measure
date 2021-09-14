@@ -131,7 +131,7 @@ def main(args):
                       transforms.ToTensor(),
                       transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
     
-    testset = GPSNDataset('../meta_data/'+args.img+'_metadata.csv', './data/'+args.img, test_transform)
+    testset = GPSNDataset('../meta_data/'+args.img+'_metadata.csv', '../data/'+args.img, test_transform)
     testloader = torch.utils.data.DataLoader(testset, batch_size=256, shuffle=False, num_workers=4)
     
     

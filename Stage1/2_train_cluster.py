@@ -21,7 +21,7 @@ def main(args):
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed_all(args.seed)
     np.random.seed(args.seed)
-    path = './checkpoint/'+args.name+'_resnet18_200.ckpt'
+    path = '../checkpoint/'+args.name+'_resnet18_200.ckpt'
     model = models.resnet18(pretrained=False)
     model = nn.DataParallel(model)
     model.module.fc = nn.Linear(512, args.nmb_cluster)
@@ -52,17 +52,17 @@ def main(args):
     criterion = nn.CrossEntropyLoss().cuda()
     criterion2 = AUGLoss().cuda()
 
-    city = pd.read_csv('./meta_data/meta_city_'+args.name+'.csv')
-    rural = pd.read_csv('./meta_data/meta_rural_'+args.name+'.csv')
+    city = pd.read_csv('../meta_data/meta_city_'+args.name+'.csv')
+    rural = pd.read_csv('../meta_data/meta_rural_'+args.name+'.csv')
     inhabited = pd.concat([city,rural],axis=0)
-    inhabited.to_csv('./meta_data/meta_inhabited_'+args.name+'.csv',index=False)
+    inhabited.to_csv('../meta_data/meta_inhabited_'+args.name+'.csv',index=False)
 
     urban_num = len(city)
     rural_num = len(rural)
 
 
-    clusterset = GPSDataset('./meta_data/meta_inhabited_'+args.name+'.csv', './data/'+args.img, cluster_transform)
-    trainset = GPSDataset('./meta_data/meta_inhabited_'+args.name+'.csv', './data/'+args.img, train_transform1)
+    clusterset = GPSDataset('../meta_data/meta_inhabited_'+args.name+'.csv', '../data/'+args.img, cluster_transform)
+    trainset = GPSDataset('../meta_data/meta_inhabited_'+args.name+'.csv', '../data/'+args.img, train_transform1)
 
     clusterloader = torch.utils.data.DataLoader(clusterset, batch_size=args.batch, shuffle=False, num_workers=1)
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=args.batch, shuffle=True, num_workers=1, drop_last = True)
@@ -98,9 +98,9 @@ def main(args):
             optimizer.step()
             
             if batch_idx % 20 == 0:
-                torch.save(model.state_dict(), './checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7'.format(args.mode))
+                torch.save(model.state_dict(), '../checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7')
                 print("[BATCH_IDX : ", batch_idx, "LOSS : ",loss.item(),"]" )
-    torch.save(model.state_dict(), './checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7')
+    torch.save(model.state_dict(), '../checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7')
     
 
 
