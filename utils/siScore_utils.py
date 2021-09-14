@@ -13,7 +13,7 @@ class ClusterDataset(Dataset):
         self.file_list = []
         self.transform = transform      
         for cluster_num in cluster_list:
-            self.file_list.extend(glob.glob('./data/{}/{}/*.png'.format(dir_name, cluster_num)))
+            self.file_list.extend(glob.glob('../data/{}/{}/*.png'.format(dir_name, cluster_num)))
 
     def __len__(self):
         return len(self.file_list)

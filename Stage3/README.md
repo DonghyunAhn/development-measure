@@ -35,5 +35,5 @@ optional arguments:
 
 Example
 
-```python3 4_siScore.py --model final_lao.ckpt --graph_config lao_1.txt --cluster_num 7 --dir_name cluster_LAO_2_4 --img LAO --name lao_1```
+```python3 4_siScore.py --model final_lao.ckpt --graph_config lao_1.txt --cluster_num 7 --dir_name cluster_lao_2_4 --img LAO --name lao_1```
 
