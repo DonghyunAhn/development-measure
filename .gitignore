@@ -1,5 +1,7 @@
 urban_score
 nk_pruning
 Ranger
-data/LAO
-data/lao_annotation
+data
+Stage1/nohup.out
+checkpoint
+meta_data
