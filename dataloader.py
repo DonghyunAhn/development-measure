@@ -38,7 +38,7 @@ class ProxyDataset(Dataset):
     
 class UnlabeledDataset(Dataset):
     def __init__(self, root_dir, transform=None):
-        self.file_list = glob.glob('./{}/*/*.png'.format(root_dir))
+        self.file_list = glob.glob('./{}/*/*/*.png'.format(root_dir))
         self.transform = transform
 
     def __len__(self):

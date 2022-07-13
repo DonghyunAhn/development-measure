@@ -62,11 +62,15 @@ def main(args):
     wr = csv.writer(f)
     wr.writerow(['img_name'])
 
-    dirs = os.listdir(origin)
-    for d in dirs:
-        imgs = os.listdir(origin+d)
-        for img in imgs:
-            wr.writerow([d+'/'+img])
+    cons = os.listdir(origin)
+    for con in cons:
+
+        dirs = os.listdir(origin+'/'+con+'/')
+        for d in dirs:
+            imgs = os.listdir(origin+'/'+con+'/'+d)
+            for img in imgs:
+                wr.writerow([con+'/'+d+'/'+img])
+
 
 
     f.close()   
