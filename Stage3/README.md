@@ -35,5 +35,12 @@ optional arguments:
 
 Example
 
-```python3 4_siScore.py --model final_NK.ckpt --graph_config nk.txt --cluster_num 23 --dir_name cluster_nk_11_11 --img NK --name nk```
+```$python3 4_siScore.py --model final_NK.ckpt --graph_config nk.txt --cluster_num 23 --dir_name cluster_nk_11_11 --img NK --name nk```
 
+Scoring Result Example
+
+```nk_NK_scores.csv```
+
+Saved Model Example
+
+```checkpoint_sample/final_nk.ckpt```
