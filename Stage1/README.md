@@ -31,7 +31,7 @@ optional arguments:
 
 Example
 
-```python3 1_pretrain.py --name lao_1 --img LAO```
+```python3 1_pretrain.py --name nk --img NK```
 
 
 ## Step 2. Clustering
@@ -67,48 +67,66 @@ optional arguments:
 
 Example
 
-```python3 2_train_cluster.py --name lao_1 --img LAO```
+```python3 2_train_cluster.py --name nk --img NK```
 
 Example output
 ```
-score of cluster 2 in city is 0.42540857195854187
-score of cluster 2 in rural is 0.3261856436729431
-score of cluster 3 in city is 0.39280208945274353
-score of cluster 3 in rural is 0.28625282645225525
-score of cluster 4 in city is 0.3649527132511139
-score of cluster 4 in rural is 0.30611342191696167
-score of cluster 5 in city is 0.3576197922229767
-score of cluster 5 in rural is 0.3114365339279175
-score of cluster 6 in city is 0.3412483036518097
-score of cluster 6 in rural is 0.3132252097129822
-score of cluster 7 in city is 0.33266395330429077
-score of cluster 7 in rural is 0.29889968037605286
-score of cluster 8 in city is 0.3302342891693115
-score of cluster 8 in rural is 0.30160173773765564
-score of cluster 9 in city is 0.32167160511016846
-score of cluster 9 in rural is 0.30135852098464966
-score of cluster 10 in city is 0.3545919954776764
-score of cluster 10 in rural is 0.2908525764942169
-score of cluster 11 in city is 0.338534951210022
-score of cluster 11 in rural is 0.29690173268318176
-score of cluster 12 in city is 0.33687207102775574
-score of cluster 12 in rural is 0.29597207903862
-score of cluster 13 in city is 0.34778445959091187
-score of cluster 13 in rural is 0.29904696345329285
-score of cluster 14 in city is 0.34466126561164856
-score of cluster 14 in rural is 0.2922791540622711
-score of cluster 15 in city is 0.3294903039932251
-score of cluster 15 in rural is 0.29506686329841614
-score of cluster 16 in city is 0.35617536306381226
-score of cluster 16 in rural is 0.29051804542541504
-score of cluster 17 in city is 0.31365838646888733
-score of cluster 17 in rural is 0.2895110845565796
-score of cluster 18 in city is 0.2882598340511322
-score of cluster 18 in rural is 0.285915344953537
-score of cluster 19 in city is 0.3144502341747284
-score of cluster 19 in rural is 0.2863290011882782
-score of cluster 20 in city is 0.30703505873680115
-score of cluster 20 in rural is 0.290301650762558
+score of cluster 2 in city is 0.23308715224266052
+score of cluster 2 in rural is 0.1826467216014862
+28228
+score of cluster 3 in city is 0.3172442615032196
+score of cluster 3 in rural is 0.21523277461528778
+28228
+score of cluster 4 in city is 0.31919488310813904
+score of cluster 4 in rural is 0.2555907666683197
+28228
+score of cluster 5 in city is 0.3550056517124176
+score of cluster 5 in rural is 0.27716973423957825
+28228
+score of cluster 6 in city is 0.3651943504810333
+score of cluster 6 in rural is 0.2997937500476837
+28228
+score of cluster 7 in city is 0.37277963757514954
+score of cluster 7 in rural is 0.30695897340774536
+28228
+score of cluster 8 in city is 0.37767258286476135
+score of cluster 8 in rural is 0.3295610845088959
+28228
+score of cluster 9 in city is 0.35936102271080017
+score of cluster 9 in rural is 0.3287757635116577
+28228
+score of cluster 10 in city is 0.36402201652526855
+score of cluster 10 in rural is 0.3369346857070923
+28228
+score of cluster 11 in city is 0.36379972100257874
+score of cluster 11 in rural is 0.3478984832763672
+28228
+score of cluster 12 in city is 0.34054693579673767
+score of cluster 12 in rural is 0.35063880681991577
+28228
+score of cluster 13 in city is 0.3443746864795685
+score of cluster 13 in rural is 0.35140401124954224
+28228
+score of cluster 14 in city is 0.3437444865703583
+score of cluster 14 in rural is 0.3595753610134125
+28228
+score of cluster 15 in city is 0.3493868410587311
+score of cluster 15 in rural is 0.363513708114624
+28228
+score of cluster 16 in city is 0.3435173034667969
+score of cluster 16 in rural is 0.3623919188976288
+28228
+score of cluster 17 in city is 0.3413296341896057
+score of cluster 17 in rural is 0.356187105178833
+28228
+score of cluster 18 in city is 0.34615588188171387
+score of cluster 18 in rural is 0.3595140278339386
+28228
+score of cluster 19 in city is 0.31027862429618835
+score of cluster 19 in rural is 0.36515888571739197
+28228
+score of cluster 20 in city is 0.3242522180080414
+score of cluster 20 in rural is 0.36439910531044006
 ```
 
 ### 2) Decide number of clusters
