@@ -13,7 +13,7 @@ Following command can replicate the full environment :
 
 ```pip install -r requirements.txt```
 
-Refer to README.md in Stage1,2,3 directories to replicate the implemented code.
+Refer to ```README.md``` in Stage1,2,3 directories to get started.
 
 
 This repository is made for ```annonymous``` work, just for temporary use.  
