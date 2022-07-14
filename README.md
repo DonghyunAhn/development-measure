@@ -1,4 +1,4 @@
-# A human-machine collaborative approach measures economic development using satellite imagery'
+# A human-machine collaborative approach measures economic development using satellite imagery
 
 This repository is official implementation of 'A human-machine collaborative approach measures economic development using satellite imagery'.
 
