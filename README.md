@@ -11,7 +11,7 @@ faiss==1.5.3
 
 Following command can replicate the full environment :
 
-```pip install -r requirements.txt``
+```pip install -r requirements.txt```
 
 Refer to README.md in Stage1,2,3 directories to replicate the implemented code.
 
