@@ -173,3 +173,6 @@ Example
 
 ```$python3 3_extract_cluster.py --name nk --img NK --city_cnum 11 --rural_cnum 11```
 
+Clustering Result Example
+
+```data/cluster_NK_11_11```
