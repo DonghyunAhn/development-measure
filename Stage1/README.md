@@ -31,7 +31,11 @@ optional arguments:
 
 Example
 
-```python3 1_pretrain.py --name nk --img NK```
+```$python3 1_pretrain.py --name nk --img NK```
+
+Saved Model Example
+
+```checkpoint_sample/nk_resnet18_200.ckpt```
 
 
 ## Step 2. Clustering
@@ -67,7 +71,7 @@ optional arguments:
 
 Example
 
-```python3 2_train_cluster.py --name nk --img NK```
+```$python3 2_train_cluster.py --name nk --img NK```
 
 Example output
 ```
@@ -129,6 +133,10 @@ score of cluster 20 in city is 0.3242522180080414
 score of cluster 20 in rural is 0.36439910531044006
 ```
 
+Saved Model Example
+
+```checkpoint_sample/ckpt_cluster_nk_50_pretrained.t7```
+
 ### 2) Decide number of clusters
 
 Human decide number of clusters referring to silhouette scores in previous step.
@@ -163,5 +171,5 @@ optional arguments:
 
 Example
 
-```python3 3_extract_cluster.py --name lao_1 --img LAO --city_cnum 8 --rural_cnum 8```
+```$python3 3_extract_cluster.py --name nk --img NK --city_cnum 11 --rural_cnum 11```
 

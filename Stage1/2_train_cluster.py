@@ -98,9 +98,9 @@ def main(args):
             optimizer.step()
             
             if batch_idx % 20 == 0:
-                torch.save(model.state_dict(), '../checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7')
+                torch.save(model.state_dict(), '../checkpoint/ckpt_cluster_'+args.name+'_50_pretrained.t7')
                 print("[BATCH_IDX : ", batch_idx, "LOSS : ",loss.item(),"]" )
-    torch.save(model.state_dict(), '../checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7')
+    torch.save(model.state_dict(), '../checkpoint/ckpt_cluster_'+args.name+'_50_pretrained.t7')
     
 
 

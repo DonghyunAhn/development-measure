@@ -26,7 +26,7 @@ def extract_inhabited_cluster(args):
     convnet = models.resnet18(pretrained=True)
     convnet = torch.nn.DataParallel(convnet)    
     print("loaded")
-    ckpt = torch.load('../checkpoint/ckpt_vanilla_cluster_'+args.name+'_50_pretrained.t7')
+    ckpt = torch.load('../checkpoint/ckpt_cluster_'+args.name+'_50_pretrained.t7')
     convnet.load_state_dict(ckpt, strict = False)
     convnet.module.fc = nn.Sequential()
     convnet.cuda()
