@@ -1,6 +1,6 @@
-# A human-machine collaborative approach economic development satellite imagery
+# A human-machine collaborative approach measures economic development using satellite imagery'
 
-Thie repository is official implementation of 'A human-machine collaborative approach economic development satellite imagery'.
+This repository is official implementation of 'A human-machine collaborative approach measures economic development using satellite imagery'.
 
 The code has been tested on the following environment :
 ```
