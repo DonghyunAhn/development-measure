@@ -175,4 +175,4 @@ Example
 
 Clustering Result Example
 
-```data/cluster_nk_11_11```
+```data_sample/cluster_nk_11_11```
