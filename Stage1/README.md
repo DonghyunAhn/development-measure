@@ -75,62 +75,62 @@ Example
 
 Example output
 ```
-score of cluster 2 in city is 0.23308715224266052
-score of cluster 2 in rural is 0.1826467216014862
+score of cluster 2 in city is 0.27153215
+score of cluster 2 in rural is 0.21534321
 28228
-score of cluster 3 in city is 0.3172442615032196
-score of cluster 3 in rural is 0.21523277461528778
+score of cluster 3 in city is 0.28592879
+score of cluster 3 in rural is 0.22450353
 28228
-score of cluster 4 in city is 0.31919488310813904
-score of cluster 4 in rural is 0.2555907666683197
+score of cluster 4 in city is 0.29413882
+score of cluster 4 in rural is 0.24524941
 28228
-score of cluster 5 in city is 0.3550056517124176
-score of cluster 5 in rural is 0.27716973423957825
+score of cluster 5 in city is 0.33135733
+score of cluster 5 in rural is 0.28279155
 28228
-score of cluster 6 in city is 0.3651943504810333
-score of cluster 6 in rural is 0.2997937500476837
+score of cluster 6 in city is 0.34089294
+score of cluster 6 in rural is 0.30885565
 28228
-score of cluster 7 in city is 0.37277963757514954
-score of cluster 7 in rural is 0.30695897340774536
+score of cluster 7 in city is 0.3551313
+score of cluster 7 in rural is 0.32053727
 28228
-score of cluster 8 in city is 0.37767258286476135
-score of cluster 8 in rural is 0.3295610845088959
+score of cluster 8 in city is 0.36246109
+score of cluster 8 in rural is 0.33708602
 28228
-score of cluster 9 in city is 0.35936102271080017
-score of cluster 9 in rural is 0.3287757635116577
+score of cluster 9 in city is 0.37006819
+score of cluster 9 in rural is 0.35190398
 28228
-score of cluster 10 in city is 0.36402201652526855
-score of cluster 10 in rural is 0.3369346857070923
+score of cluster 10 in city is 0.36707437
+score of cluster 10 in rural is 0.36709133
 28228
-score of cluster 11 in city is 0.36379972100257874
-score of cluster 11 in rural is 0.3478984832763672
+score of cluster 11 in city is 0.37528804
+score of cluster 11 in rural is 0.37606084
 28228
-score of cluster 12 in city is 0.34054693579673767
-score of cluster 12 in rural is 0.35063880681991577
+score of cluster 12 in city is 0.35541421
+score of cluster 12 in rural is 0.36503494
 28228
-score of cluster 13 in city is 0.3443746864795685
-score of cluster 13 in rural is 0.35140401124954224
+score of cluster 13 in city is 0.35932538
+score of cluster 13 in rural is 0.37247744
 28228
-score of cluster 14 in city is 0.3437444865703583
-score of cluster 14 in rural is 0.3595753610134125
+score of cluster 14 in city is 0.37169257
+score of cluster 14 in rural is 0.37317824
 28228
-score of cluster 15 in city is 0.3493868410587311
-score of cluster 15 in rural is 0.363513708114624
+score of cluster 15 in city is 0.36401796
+score of cluster 15 in rural is 0.38054481
 28228
-score of cluster 16 in city is 0.3435173034667969
-score of cluster 16 in rural is 0.3623919188976288
+score of cluster 16 in city is 0.36889473
+score of cluster 16 in rural is 0.37675411
 28228
-score of cluster 17 in city is 0.3413296341896057
-score of cluster 17 in rural is 0.356187105178833
+score of cluster 17 in city is 0.37774381
+score of cluster 17 in rural is 0.3821744
 28228
-score of cluster 18 in city is 0.34615588188171387
-score of cluster 18 in rural is 0.3595140278339386
+score of cluster 18 in city is 0.35884652
+score of cluster 18 in rural is 0.38213742
 28228
-score of cluster 19 in city is 0.31027862429618835
-score of cluster 19 in rural is 0.36515888571739197
+score of cluster 19 in city is 0.38149205
+score of cluster 19 in rural is 0.37252098
 28228
-score of cluster 20 in city is 0.3242522180080414
-score of cluster 20 in rural is 0.36439910531044006
+score of cluster 20 in city is 0.38182408
+score of cluster 20 in rural is 0.37596616
 ```
 
 Saved Model Example
@@ -141,9 +141,9 @@ Saved Model Example
 
 Human decide number of clusters referring to silhouette scores in previous step.
 
-![Alt text](sil_example.png)
+![Alt text](NK_sil.png)
 
-Choose cluster number which makes a peak (ex) 11 for city, 8 for rural)
+Choose cluster number which makes a peak (ex) 11 for city, 11 for rural)
 
 
 ### 3) Extract clusters
