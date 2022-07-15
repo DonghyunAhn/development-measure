@@ -9,7 +9,7 @@ Rename directory into Ranger.
 
 ### 1) Annotate sample images
 
-Choose 1,000 sample imagery from entire dataset. Human anotates 1,000 images among 3 categories : Urban, Rural, and Uninhabited. Make annotation result into single file and save this file and sample image (Refer to "lao_1_annotation" directory)
+Choose 1,000 sample imagery from entire dataset. Human anotates 1,000 images among 3 categories : Urban, Rural, and Uninhabited. Make annotation result into single file and save this file and sample image (Refer to "data_sample/nk_annotation" directory)
 
 
 ### 2) Pre-training
