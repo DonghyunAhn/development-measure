@@ -141,7 +141,7 @@ Saved Model Example
 
 Human decide number of clusters referring to silhouette scores in previous step.
 
-![Alt text](NK_sil.png)
+![Alt text](silhouette.png)
 
 Choose cluster number which makes a peak (ex) 11 for city, 11 for rural)
 
