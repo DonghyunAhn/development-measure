@@ -13,7 +13,7 @@ Following command can replicate the full environment :
 
 ```pip install -r requirements.txt```
 
-Refer to ```README.md``` in Stage1,2,3 directories to get started.
+Refer to ```README.md``` in Stage1,2,3 directories to get started. Dataset in ```data_sample``` directory is sampled example from the original dataset. The code is implemented according to its format, so use it just for reference.
 
 
 This repository is made for ```annonymous``` work, just for temporary use.  
