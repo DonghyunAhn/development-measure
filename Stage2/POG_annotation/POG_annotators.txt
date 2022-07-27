@@ -1,0 +1,10 @@
+sat1
+sat2
+sat3
+loc1
+loc2
+loc3
+eco1
+eco2
+eco3
+eco4
