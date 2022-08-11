@@ -1,5 +1,6 @@
 # SiScore
 
+<img src="./Stage3.png" width="600">  
 Train model and extract score with default values of hyper-parameter defined in utils/parameters.py, siScore_parser().
 
 
