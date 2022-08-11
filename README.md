@@ -2,6 +2,11 @@
 
 This repository is official implementation of 'A human-machine collaborative approach measures economic development using satellite imagery'.
 
+
+## Software  
+
+### Module dependencies
+
 The code has been tested on the following environment :
 ```
 torch==1.11.0
@@ -18,6 +23,8 @@ faiss==1.5.3
 Following command can replicate the full environment :
 
 ```pip install -r requirements.txt```
+
+---  
 
 Refer to ```README.md``` in Stage1,2,3 directories to get started. Dataset in ```data``` directory is sampled example from the original dataset. The code is implemented according to its format, so use them just for the reference.
  
