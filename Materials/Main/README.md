@@ -63,7 +63,7 @@ Key file : `NK_siScore_grid.shp`
 2. Upload the landcover map to QGIS program. It automatically sets the color for each class. 
 3. Export the image and put a legend with Microsoft Powerpoint program. 
 
-<img src="./Fig/Figure2_process3.png" width="600"> 
+<img src="./Fig/Figure2_process3.png" width="300"> 
 
 
 ### Figure2 (D)
@@ -284,7 +284,7 @@ Open ‘Fig3_evaluation.xlsx’.
 ---  
 
 ## Figure4  
-<img src="./Fig/Figure4.png" width="600">  
+<img src="./Fig/Figure4.png" width="300">  
 __The changes in siScore in North Korea from 2016 to 2019.__ 
 
 (Left) The changes in North Korea. (Right) Examples of Sentinel-2 images and siScore in model predictions between 2016 and 2019. The top images present industrial development areas in Wiwon county. The bottom images present the recently constructed Kalma tourist project of Wonsan city. The boundaries of these development projects are drawn as red lines. The bottom pictures reveal more vivid changes due to new buildings and roads compared to the top pictures.  
