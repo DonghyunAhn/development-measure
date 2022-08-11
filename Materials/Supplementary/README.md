@@ -29,9 +29,27 @@ __Table__
 <img src="./Fig/FigureS1.png" width="600">  
 
 
-### Detail  
+### FigureS1 (A)  
 
-Materials path : `../Codes/FigS1_ref/`  
+1. Download the North Korea landcover map from the Ministry of Environment (MoE) of South Korea. Note that this file is not uploaded to Github due to copyright issue. 
+2. Upload the landcover map to QGIS program. It automatically sets the color for each class. 
+3. Open ‘NK_siScore_grid.shp’ to show the grids. 
+4. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. 
+5. Click ‘simple fill’ and change ‘fill style’ from ‘solid’ to ‘No brush’.
+6. Zoom to Rason city. The coordinate of Rason city is ‘130.29645,42.23617’.
+7. Export the image and put a legend with Microsoft Powerpoint program. 
+
+<img src="./Fig/Figure2_process3.png" width="600"> 
+
+### FigureS1 (B) 
+
+1. Open ‘building footprint shapefile’ of North Korea with QGIS. You can download the shapefile from the National Geographic Information Institute (NGII) in South Korea. Note that this file is not uploaded to Github due to copyright issue. 
+2. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. 
+3. Click color box and change color to red. 
+4. Open ‘NK_siScore_grid.shp’ to show the grids. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. 
+5. Click ‘simple fill’ and change ‘fill style’ from ‘solid’ to ‘No brush’.
+6. Zoom to Rason city. The coordinate of Rason city is ‘130.29645,42.23617’.
+7. Export the image and put a legend with Microsoft Powerpoint program. 
 
 [Back to top](#Contents)
 
@@ -40,9 +58,81 @@ Materials path : `../Codes/FigS1_ref/`
 ## FigureS2  
 <img src="./Fig/FigureS2.png" width="600">  
 
-### Detail  
+### FigureS2 (A)
 
-Materials path : `../Codes/Fig2_ref/`  
+Materials path : `../SpatialData/`  
+Key file : `NK_district_statistics.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program.
+2. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for population. Choose ‘Popden08’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Natural Breaks (Jenks)’. Change the number of classes as 30. 
+3. Change color ramp to 'Oranges'. 
+4. Export the image and put a legend with Microsoft Powerpoint software.
+
+### FigureS2 (B)
+
+Materials path : `../SpatialData/`  
+Key file : `NK_grid_building.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program as background. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Fill color with black.
+2. Open 'NK_grid_building.shp'.
+2. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for building density. Choose ‘BuildDEN’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Natural Breaks (Jenks)’. Change the number of classes as 30. 
+3. Change color ramp to 'Viridis    '. 
+4. Export the image and put a legend with Microsoft Powerpoint software.
+
+### FigureS2 (C)
+
+Materials path : `../SpatialData/`  
+Key file : `NK_district_statistics.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program.
+2. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for Market area per 1km2. Choose ‘Market18ar’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Natural Breaks (Jenks)’. Change the number of classes as 30. 
+3. Change color ramp to 'YlGnBu'. 
+4. Export the image and put a legend with Microsoft Powerpoint software.
+
+
+### FigureS2 (D)
+
+Materials path : `../SpatialData/`  
+Key file : `NK_district_statistics.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program.
+2. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for Establishment area per 1km2. Choose ‘Estab19num’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Natural Breaks (Jenks)’. Change the number of classes as 30. 
+3. Change color ramp to 'RdPu'. 
+4. Export the image and put a legend with Microsoft Powerpoint software.
+
+
+### FigureS2 (E)
+
+Materials path : `../SpatialData/`  
+Key file : `NK_mines.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program as background. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Fill color with white.
+2. Open 'NK_mines.shp'.
+3. Double click shapefile layer and go to the 'symbology' tab of layer properties. Choose ‘Categorized’ symbol function to create categorized symbols for mines. Choose ‘Type’ for the value. 
+4. Except 'coal', 'copper', 'gold', 'iron', and 'uranium', remove other class. 
+5. Uncheck 'all other values'.
+6. Set color for each class as below.
+
+<img src="./Fig/FigureS2_symbol6.png" width="400">
+
+7. Export the image and put a legend with Microsoft Powerpoint program. 
+
+
+### FigureS2 (F)
+
+Materials path : `../SpatialData/`  
+Key file : `NK_SEZ_EDZ.shp`, `NK_ports.shp`, `NK_checkpoint.shp`,  `NK_nuclear.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program as background. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Fill color with white.
+2. Open `NK_SEZ_EDZ.shp`, `NK_ports.shp`, `NK_checkpoint.shp`, and `NK_nuclear.shp`. 
+3. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose small circles with different colors for each shapefile.
+4. Export the image and put symbols over the circles with Microsoft Powerpoint software. 
+
+<img src="./Fig/FigureS2_symbol1.png" width="100">
+<img src="./Fig/FigureS2_symbol2.png" width="100">  
+<img src="./Fig/FigureS2_symbol3.png" width="100">  
+<img src="./Fig/FigureS2_symbol4.png" width="100">  
+<img src="./Fig/FigureS2_symbol5.png" width="100">  
 
 [Back to top](#Contents)
 
@@ -97,6 +187,16 @@ Materials path : `../Codes/Fig2_ref/`
 
 ### Detail  
 
+1. Open ‘Fig_S7_3D.qlr’ file with QGIS. Check if QGIS Layer definition file is connected with ‘NK_siScore_district.shp’ correctly. 
+2. Open Google Satellite iMagery for background. You can open Google Satellite iMagery with ‘XYZ Tiles’ tool of QGIS.
+3. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
+4. Use 3D map by ‘View’ tap > ‘New 3D Map view’
+5. Scroll wheel to make it 3D view. 
+6. Print screen and open it with Microsoft Powerpoint software. Put labels and a north arrow. 
+
+Materials path : `../SpatialData/`  
+Key file : `Fig_S7_3D.qlr` 
+
 Materials path : `../Codes/Fig2_ref/`  
 
 [Back to top](#Contents)
@@ -106,9 +206,50 @@ Materials path : `../Codes/Fig2_ref/`
 ## FigureS8  
 <img src="./Fig/FigureS8.png" width="600">  
 
-### Detail  
+### FigureS8 (Top)
 
-Materials path : `../Codes/Fig2_ref/`  
+1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
+2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
+3. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘year2016’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 30. 
+4. Press the box of ‘color ramp’ to change color ramp. Set as below.
+        Color point 1 : RGB (43, 131, 186) Relative Position (0.0%)
+        Color point 2 : RGB (171, 221, 164) Relative Position (10.0%)
+        Color point 3 : RGB (255, 255, 191) Relative Position (20.0%)
+        Color point 4 : RGB (253, 174, 97) Relative Position (50.0%)
+        Color point 5 : RGB (215, 25, 28) Relative Position (100.0%)
+
+<img src="./Fig/FigureS7_process1.png" width="600"> 
+
+5. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
+6. Export the image of siScore 2016 and put labels and a legend with Microsoft Powerpoint program. 
+7. Double click ‘NK_siScore_grid’ at QGIS and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘year2019’ for the value. 
+8. Export the image of siScore 2019 and put labels and a legend with Microsoft Powerpoint program. 
+
+
+Materials path : `../SpatialData/`  
+Key file : `NK_siScore_grid.shp`  
+
+
+
+### FigureS2 (Bottom)
+
+1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
+2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
+3. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘19_16’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 7. 
+4. Set ‘color ramp’ as ‘Spectral’. Right-click the color box and press ‘invert Color Ramp’.
+5. Set the class values as below.
+
+<img src="./Fig/Figure4_process1.png" width="600"> 
+
+6. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
+
+<img src="./Fig/Figure4_process2.png" width="600"> 
+
+7. Export the image and put labels and a legend with Microsoft Powerpoint program. 
+
+Materials path : `../SpatialData/`  
+Key file : `NK_siScore_grid.shp`  
+
 
 [Back to top](#Contents)
 
@@ -128,9 +269,37 @@ Materials path : `../Codes/Fig2_ref/`
 ## FigureS10  
 <img src="./Fig/FigureS10.png" width="600">  
 
-### Detail  
+### FigureS10 (Top)
 
-Materials path : `../Codes/Fig2_ref/`  
+1. Open ‘5countries.shp’ and ‘5countries_cloud.shp’ with QGIS software program. 
+2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84’ 
+3. Double click ‘5countries.shp’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘siScore’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 30. 
+4. Press the box of ‘color ramp’ to change color ramp. Set as below.
+        Color point 1 : RGB (0, 0, 0) Relative Position (0.0%)
+        Color point 2 : RGB (231, 94, 20) Relative Position (48.4%)
+        Color point 3 : RGB (245, 209, 0) Relative Position (71.8%)
+        Color point 4 : RGB (255, 255, 255) Relative Position (91.7%)
+        Color point 5 : RGB (255, 255, 255) Relative Position (100.0%)
+
+<img src="./Fig/Figure6_process1.png" width="600"> 
+
+5. Double click ‘5countries_cloud.shp’ and go to the ‘symbology’ tab of layer properties. Change color to pink. 
+6. Open Google Satellite Imagery for background. You can open Google Satellite imagery with ‘XYZ Tiles’ tool of QGIS.
+7. Export the image and put labels and a legend with Microsoft Powerpoint program.
+
+Materials path : `../SpatialData/`  
+Key file : `5countries.shp`  
+
+
+### FigureS10 (bottom)
+
+1. Go to https://eogdata.mines.edu/nighttime_light/annual/v20/2019/
+2. Download ‘VNL_v2_npp_2019_global_vcmslcfg_c202101211500.average.tif.gz’
+3. Upload the yearly aggregated VIIRS nightlight data to QGIS program. Note that this file is not uploaded to Github due to copyright issue.  
+4. Clip the extent of the data area to the boundary of five countries
+5. Open Google Satellite Imagery for background. You can open Google Satellite imagery with ‘XYZ Tiles’ tool of QGIS.
+6. Print screen and open it with Microsoft Powerpoint software. Put labels and a legend. 
+
 
 [Back to top](#Contents)
 
@@ -188,7 +357,58 @@ Key file :
 ### Detail  
 
 Materials path : `../Codes/TableS4_ref/`  
-Key file :    
+Key file : `TableS4_evaluation.xlsx`   
+
+Open ‘TableS4_evaluation.xlsx’.
+
+* For evaluation results for 'Building area' at the grid-level. Go to 'grid_year' tab. Calculate R-square, pearson, spearman correlation between: 
+    * 2016: 'year2016' and 'lnFA2014' columns
+    * 2017: 'year2017' and 'lnFA2014' columns
+    * 2018: 'year2018' and 'lnFA2014' columns
+    * 2019: 'year2019' and 'lnFA2014' columns
+    * Avg: '4years_average' and 'lnFA2014' columns
+
+* For evaluation results for 'Building area' at the district-level. Go to 'district_year' tab. Calculate R-square between: 
+    * 2016: 'ln(districtmean16)' and 'ln(FA2014)' columns
+    * 2017: 'ln(districtmean17)' and 'ln(FA2014)' columns
+    * 2018: 'ln(districtmean18)' and 'ln(FA2014)' columns
+    * 2019: 'ln(districtmean19)' and 'ln(FA2014)' columns
+    * Avg: 'ln(districtmean4years)' and 'ln(FA2014)' columns
+
+* For evaluation results for 'Population density' at the district-level. Go to 'district_year' tab. Calculate R-square between: 
+    * 2016: 'ln(districtmean16)' and 'ln(popden08)' columns
+    * 2017: 'ln(districtmean17)' and 'ln(popden08)' columns
+    * 2018: 'ln(districtmean18)' and 'ln(popden08)' columns
+    * 2019: 'ln(districtmean19)' and 'ln(popden08)' columns
+    * Avg: 'ln(districtmean4years)' and 'ln(popden08)' columns
+
+* For evaluation results for 'Markets per 1km2' at the district-level. Go to 'district_year' tab. Calculate R-square between: 
+    * 2016: 'ln(districtmean16)' and 'ln(market18no/1km2)' columns
+    * 2017: 'ln(districtmean17)' and 'ln(market18no/1km2)' columns
+    * 2018: 'ln(districtmean18)' and 'ln(market18no/1km2)' columns
+    * 2019: 'ln(districtmean19)' and 'ln(market18no/1km2)' columns
+    * Avg: 'ln(districtmean4years)' and 'ln(market18no/1km2)' columns
+ 
+* For evaluation results for 'Market areas per 1km2' at the district-level. Go to 'district_year' tab. Calculate R-square between: 
+    * 2016: 'ln(districtmean16)' and 'ln(market18area/1km2)' columns
+    * 2017: 'ln(districtmean17)' and 'ln(market18area/1km2)' columns
+    * 2018: 'ln(districtmean18)' and 'ln(market18area/1km2)' columns
+    * 2019: 'ln(districtmean19)' and 'ln(market18area/1km2)' columns
+    * Avg: 'ln(districtmean4years)' and 'ln(market18area/1km2)' columns
+ 
+* For evaluation results for 'Market stalls per 1km2' at the district-level. Go to 'district_year' tab. Calculate R-square between: 
+    * 2016: 'ln(districtmean16)' and 'ln(market18stall/1km2)' columns
+    * 2017: 'ln(districtmean17)' and 'ln(market18stall/1km2)' columns
+    * 2018: 'ln(districtmean18)' and 'ln(market18stall/1km2)' columns
+    * 2019: 'ln(districtmean19)' and 'ln(market18stall/1km2)' columns
+    * Avg: 'ln(districtmean4years)' and 'ln(market18stall/1km2)' columns
+
+* For evaluation results for 'Establishment per 1km2' at the district-level. Go to 'district_year' tab. Calculate R-square between: 
+    * 2016: 'ln(districtmean16)' and 'ln(company19/1km2)' columns
+    * 2017: 'ln(districtmean17)' and 'ln(company19/1km2)' columns
+    * 2018: 'ln(districtmean18)' and 'ln(company19/1km2)' columns
+    * 2019: 'ln(districtmean19)' and 'ln(company19/1km2)' columns
+    * Avg: 'ln(districtmean4years)' and 'ln(company19/1km2)' columns
 
 [Back to top](#Contents)
 
@@ -240,11 +460,17 @@ Key file :
 ## TableS8
 <img src="./Table/TableS8.png" width="600">  
 
-
 ### Detail  
 
 Materials path : `../Codes/TableS8_ref/`  
-Key file :    
+Key file : `TableS8_evaluation.xlsx`   
+
+Open ‘TableS8_evaluation.xlsx’.
+
+1. For calculating Mean, Median, S.D., P25, and P75 of 2016 model score, use 'year2016' column.
+2. For calculating Mean, Median, S.D., P25, and P75 of 2019 model score, use 'year2019' column.
+3. For calculating Mean, Median, S.D., P25, and P75 of difference between 2016 and 2019, use '19_16' column.
+
 
 [Back to top](#Contents)
 
@@ -257,8 +483,8 @@ Key file :
 
 ### Detail  
 
-Materials path : `../Codes/TableS9_ref/`  
-Key file :    
+Materials path : `../Codes/TableS10_ref/`  
+Key file :   
 
 [Back to top](#Contents)
 
@@ -268,8 +494,14 @@ Key file :
 ## TableS10
 <img src="./Table/TableS10.png" width="600">  
 
-
 ### Detail  
+1. Download OpenStreetmap data of Bangladesh, Cambodia, Laos, Myanmar, Nepal, and North Korea  from 'https://www.geofabrik.de/'. Note that the file is not uploaded to Github due to copyright issue.
+2. Open building footprint shapefiles with QGIS. 
+3. Open attribute table of each shapefile. Add a new field for calculating area of all features.
+4. Open dbf file of each shapefile. Calculate the total number of buildings, total area, the number of buildings per area.
+
+
+
 
 Materials path : `../Codes/TableS10_ref/`  
 Key file :    
@@ -277,4 +509,3 @@ Key file :
 [Back to top](#Contents)
 
 ---  
-
