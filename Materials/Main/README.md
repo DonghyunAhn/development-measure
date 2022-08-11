@@ -46,7 +46,7 @@ Based on the GDP per capita (at current prices USD, 2019), we select five countr
 ### Detail  
 
 Materials path : `../Codes/Fig3_ref/`  
-Key file : `Fig_evaluation.xlsx`  
+Key file : `Fig3_evaluation.xlsx`  
 
 [Back to top](#Contents)
 
