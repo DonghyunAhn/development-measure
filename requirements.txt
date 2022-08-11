@@ -1,3 +1,0 @@
-torch==1.11.0
-scikit-image==0.19.2
-faiss==1.5.3
