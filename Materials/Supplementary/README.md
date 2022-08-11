@@ -128,13 +128,13 @@ Key file : `NK_SEZ_EDZ.shp`, `NK_ports.shp`, `NK_checkpoint.shp`,  `NK_nuclear.s
 3. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose small circles with different colors for each shapefile.
 4. Export the image and put symbols over the circles with Microsoft Powerpoint software. 
 
-<center class ="half">
-  <img src="./Fig/FigureS2_symbol1.png" width="100"/>
-  <img src="./Fig/FigureS2_symbol2.png" width="100"/>  
-  <img src="./Fig/FigureS2_symbol3.png" width="100"/>  
-  <img src="./Fig/FigureS2_symbol4.png" width="100"/>  
-  <img src="./Fig/FigureS2_symbol5.png" width="100"/>  
-center>
+<p>
+  <img src="./Fig/FigureS2_symbol1.png" width="100">
+  <img src="./Fig/FigureS2_symbol2.png" width="100">  
+  <img src="./Fig/FigureS2_symbol3.png" width="100">  
+  <img src="./Fig/FigureS2_symbol4.png" width="100">  
+  <img src="./Fig/FigureS2_symbol5.png" width="100">  
+</p>
 
 [Back to top](#Contents)
 
