@@ -39,7 +39,7 @@ __Table__
 6. Zoom to Rason city. The coordinate of Rason city is ‘130.29645,42.23617’.
 7. Export the image and put a legend with Microsoft Powerpoint program. 
 
-<img src="./Fig/Figure2_process3.png" width="600"> 
+<img src="./Fig/Figure2_process3.png" width="300"> 
 
 ### FigureS1 (B) 
 
@@ -113,7 +113,7 @@ Key file : `NK_mines.shp`
 5. Uncheck 'all other values'.
 6. Set color for each class as below.
 
-<img src="./Fig/FigureS2_symbol6.png" width="400">
+<img src="./Fig/FigureS2_symbol6.png" width="300">
 
 7. Export the image and put a legend with Microsoft Powerpoint program. 
 
@@ -231,7 +231,7 @@ Key file : `NK_siScore_grid.shp`
 
 
 
-### FigureS2 (Bottom)
+### FigureS8 (Bottom)
 
 1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
@@ -239,7 +239,7 @@ Key file : `NK_siScore_grid.shp`
 4. Set ‘color ramp’ as ‘Spectral’. Right-click the color box and press ‘invert Color Ramp’.
 5. Set the class values as below.
 
-<img src="./Fig/Figure4_process1.png" width="600"> 
+<img src="./Fig/Figure4_process1.png" width="300"> 
 
 6. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
 
