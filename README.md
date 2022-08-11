@@ -36,7 +36,7 @@ The code has been tested on four NVIDIA TITAN Xp GPUs
 ---  
 
 ## Model description  
-
+<img src="./Materials/Main/Fig/Figure1.png" width "600">
 To train the scoring model *siScore*, you need to follow three stages: `Stage1`, `Stage2`, `Stage3`.  
 `Stage1` first conducts pre-training, and then generates the clusters from given satellite imagery via *DeepCluster*.  
 `Stage2` suggests ensemble method for aggregating human-guided weak-supervision in reasonable way. *Humman* annotators first label the partial orders between the clusters from `Stage1`. Then, the *Machine* ensembles the all labels from the human, and prune some clusters for better training.  
