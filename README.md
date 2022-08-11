@@ -26,6 +26,14 @@ Following command can replicate the full environment :
 
 ---  
 
+## Hardware  
+
+### GPU specification  
+
+The code has been tested on four NVIDIA TITAN Xp GPUs  
+
+---  
+
 Refer to ```README.md``` in Stage1,2,3 directories to get started. Dataset in ```data``` directory is sampled example from the original dataset. The code is implemented according to its format, so use them just for the reference.
  
 Contributor : TA, EL
