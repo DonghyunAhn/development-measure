@@ -113,7 +113,7 @@ Key file : `NK_mines.shp`
 5. Uncheck 'all other values'.
 6. Set color for each class as below.
 
-<img src="./Fig/FigureS2_symbol6.png" width="300">
+<img src="./Fig/FigureS2_symbol6.png" width="100">
 
 7. Export the image and put a legend with Microsoft Powerpoint program. 
 
@@ -128,11 +128,13 @@ Key file : `NK_SEZ_EDZ.shp`, `NK_ports.shp`, `NK_checkpoint.shp`,  `NK_nuclear.s
 3. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose small circles with different colors for each shapefile.
 4. Export the image and put symbols over the circles with Microsoft Powerpoint software. 
 
-<img src="./Fig/FigureS2_symbol1.png" width="100">
-<img src="./Fig/FigureS2_symbol2.png" width="100">  
-<img src="./Fig/FigureS2_symbol3.png" width="100">  
-<img src="./Fig/FigureS2_symbol4.png" width="100">  
-<img src="./Fig/FigureS2_symbol5.png" width="100">  
+<center class ="half">
+  <img src="./Fig/FigureS2_symbol1.png" width="100"/>
+  <img src="./Fig/FigureS2_symbol2.png" width="100"/>  
+  <img src="./Fig/FigureS2_symbol3.png" width="100"/>  
+  <img src="./Fig/FigureS2_symbol4.png" width="100"/>  
+  <img src="./Fig/FigureS2_symbol5.png" width="100"/>  
+center>
 
 [Back to top](#Contents)
 
