@@ -145,7 +145,21 @@ Key file : `NK_SEZ_EDZ.shp`, `NK_ports.shp`, `NK_checkpoint.shp`,  `NK_nuclear.s
 
 ### Detail  
 
-Materials path : `../Codes/Fig2_ref/`  
+Materials path : `../SpatialData/`  
+Key file : `NK_district_statistics.shp` 
+
+1. Open 'NK_district_statistics.shp' with QGIS program as background. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Make the boundary color red.
+2. Select 'Hyesan City' and make it a only visible feature. 
+3. Open 'NK_siScore_gird.shp'. Make the boundary color White.
+4. Open Google Satellite Imagery as background.
+5. Export the image and add lines, a legend, and vertices of girds with Microsoft Powerpoint program. 
+
+<p>
+  <img src="./Fig/FigureS3_process1.png" width="100">
+  <img src="./Fig/FigureS3_process2.png" width="100">  
+  <img src="./Fig/FigureS3_process3.png" width="100">  
+</p>
+
 
 [Back to top](#Contents)
 
@@ -178,7 +192,33 @@ Materials path : `../Codes/Fig2_ref/`
 
 ### Detail  
 
-Materials path : `../Codes/Fig2_ref/`  
+1. Download Sentinel-2 satellite images from usgs earthexplorer website. The file is not uploaded to Github due to copyright issue.
+2. Download North Korea land cover classification map from MoE of South Korea. This file is also not uploaded to Github due to copyright issue. 
+3. Clip Sentinel-2 images and land cover classification map with the extent of zoom-level 14 grids. 
+
+<p>
+  <img src="./Fig/FigureS6_image1.png" width="100">
+  <img src="./Fig/FigureS6_image2.png" width="100">  
+  <img src="./Fig/FigureS6_image3.png" width="100">  
+  <img src="./Fig/FigureS6_image4.png" width="100">
+  <img src="./Fig/FigureS6_image5.png" width="100">  
+  <img src="./Fig/FigureS6_image6.png" width="100">  
+</p>
+
+<p>
+  <img src="./Fig/FigureS6_image7.png" width="100">
+  <img src="./Fig/FigureS6_image8.png" width="100">  
+  <img src="./Fig/FigureS6_image9.png" width="100">  
+  <img src="./Fig/FigureS6_image10.png" width="100">
+  <img src="./Fig/FigureS6_image11.png" width="100">  
+  <img src="./Fig/FigureS6_image12.png" width="100">  
+</p>
+
+
+4. Calculate the area of used area from clipped land cover classification map.
+5. Put images and labels on Microsoft Powerpoint program.
+
+
 
 [Back to top](#Contents)
 
@@ -260,9 +300,49 @@ Key file : `NK_siScore_grid.shp`
 ## FigureS9  
 <img src="./Fig/FigureS9.png" width="600">  
 
-### Detail  
+### FigureS9 (Top)
 
-Materials path : `../Codes/Fig2_ref/`  
+1. Download Sentinel-2 image from https://earthexplorer.usgs.gov/
+2. Download Sentinel-2 tile image ‘T52SCJ’ in 2016 and 2019. Note that this file is not uploaded to Github due to copyright issue.
+3. Open ‘T52SCJ’ image with QGIS.
+4. Zoom to Wonsan city. The coordinate of Wonsan city is ‘127.487479,39.174753’
+5. Open ‘NK_siScore_grid.shp’ to show the grids. 
+6. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. 
+7. Click ‘simple fill’ and change ‘fill style’ from ‘solid’ to ‘No brush’.
+8. Convert 'NK_siScore_grid.shp' into point shapefile with 'Centroids' tool of QGIS.
+9. Double click 'centorids' to open 'symbology' tab of layer properties. 
+10. Change from 'Single symbol' to 'Heatmap'
+11. Make color ramp as inverted 'spectral'.
+12. Weight points by '19_16'.
+13. Set radius as 100. 
+14. Export the image.
+
+<img src="./Fig/FigureS9_process1.png" width="600">
+
+15. Draw the boundary of Kalma tourist project with Powerpoint program. You can find the boundary from the reference cited at the manuscript and Supplementary materials. Put labels with Powerpoint program.
+
+### FigureS9 (Bottom)
+
+1. Download Sentinel-2 image from https://earthexplorer.usgs.gov/. 
+2. Download Sentinel-2 tile image ‘T51TYF’. Note that this file is not uploaded to Github due to copyright issue.
+3. Open ‘T51TYF’ image with QGIS.
+4. Zoom to Wiwon county. The coordinate of Wiwon county is ‘126.09060,40.86591’
+5. Open ‘NK_siScore_grid.shp’ to show the grids. 
+6. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. 
+7. Click ‘simple fill’ and change ‘fill style’ from ‘solid’ to ‘No brush’.
+8. Convert 'NK_siScore_grid.shp' into point shapefile with 'Centroids' tool of QGIS.
+9. Double click 'centorids' to open 'symbology' tab of layer properties. 
+10. Change from 'Single symbol' to 'Heatmap'
+11. Make color ramp as inverted 'spectral'.
+12. Weight points by '19_16'.
+13. Set radius as 100. 
+14. Export the image.
+
+<img src="./Fig/FigureS9_process2.png" width="600">
+
+15. Draw the boundary of Wiwon project with Microsoft Powerpoint program. You can find the boundary from the reference cited at the manuscript and Supplementary materials. Put labels with Powerpoint program.
+
+
 
 [Back to top](#Contents)
 
@@ -511,3 +591,4 @@ Key file :
 [Back to top](#Contents)
 
 ---  
+
