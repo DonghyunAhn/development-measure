@@ -29,9 +29,10 @@ Following command can replicate the full environment :
 
 ## Hardware  
 
-### GPU specification  
+### GPU server specification  
 
-The code has been tested on four NVIDIA TITAN Xp GPUs  
+GPU spec : 4x NVIDIA TITAN Xp  
+OS : linux 4.4.0-190-generic  
 
 ---  
 
