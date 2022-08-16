@@ -503,8 +503,16 @@ Open ‘TableS4_evaluation.xlsx’.
 
 ### Detail  
 
-Materials path : `../Codes/TableS5_ref/`  
-Key file :    
+Materials path : `../Codes/TableS5_S6_S7_ref/`  
+Key file :  `Nepal_to_NK.csv`, `Bangladesh_to_NK.csv`  
+
+On this experiment, we first collect floor area of two countries: Nepal, Bangladesh.  
+OpenStreetMap helps to collect ground truth on both countries.
+For satellite imagery, we utilize *World Imagery* tilemap.  
+We then construct the prediction model from the training image and the ground truth FA data.
+By applying the model on NK satellite imagery, we obtain `Nepal_to_NK.csv`, `Bangladesh_to_NK.csv`  
+csv files, which are the prediction result on North Korea.  
+
 
 [Back to top](#Contents)
 
@@ -517,8 +525,10 @@ Key file :
 
 ### Detail  
 
-Materials path : `../Codes/TableS6_ref/`  
-Key file :    
+Materials path : `../Codes/TableS5_S6_S7_ref/`  
+Key file :  `NK_score_hyperlocal.csv`, `NK_NL_guided.csv`, `NK_LC_guided.csv`  
+
+Comparing our model to the other recent model / the model utilizes data-driven POG in Stage 2 / the regression model.  
 
 [Back to top](#Contents)
 
@@ -531,8 +541,11 @@ Key file :
 
 ### Detail  
 
-Materials path : `../Codes/TableS7_ref/`  
-Key file :    
+Materials path : `../Codes/TableS5_S6_S7_ref/`  
+Key file :    `NK_score_pairwise_05.csv`, `NK_score_triplet_05.csv`
+
+Report performance of our model's ablation studies (on other loss function).  
+Test for the model hiring pairwise loss/ triplet loss (margin = 0.5).   
 
 [Back to top](#Contents)
 
@@ -565,8 +578,7 @@ Open ‘TableS8_evaluation.xlsx’.
 
 ### Detail  
 
-Materials path : `../Codes/TableS10_ref/`  
-Key file :   
+Reference : United Nations Statistics Division, UN Data (2021).  
 
 [Back to top](#Contents)
 
