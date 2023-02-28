@@ -406,7 +406,7 @@ Cross-participant agreement measured by the Kendall-τ coefficient (τB) across 
 ### Detail  
 
 Materials path : `../../Stage2/kendall_tau/` 
-Key file :   txt2kendall2.py  
+Key file : `txt2kendall2.py`  
 
 To reproduce the results, please read instructions in `../../Stage2/kendall_tau/` before run a code.  
 
@@ -420,8 +420,8 @@ To reproduce the results, please read instructions in `../../Stage2/kendall_tau/
 
 ### Detail  
 
-Materials path :  `../Codes/TableS1_ref/`  
-Key file :    
+Materials path : `../../Stage2/kendall_tau/` 
+Key file : `txt2kendall2.py`  
 
 [Back to top](#Contents)
 
