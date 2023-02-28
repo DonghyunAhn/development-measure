@@ -108,7 +108,72 @@ Key file : `NK_siScore_grid.shp`
 ---  
 
 ## Figure3  
-<img src="./Fig/Figure3.png" width="600">  
+<img src="./Fig/Figure3.png" width="600"> 
+
+**Visualization of economic development predicted by the human-machine collaboration model for North Korea and the 5 least developed countries in Asia.**  
+
+(A) Predictions scores over grid images from 2016 to 2019. The scores are standardized for visualization. The blue area indicates an area which is not available for the satellite images. The zoomed-in views (B-C) compare economic development predictions for Cambodia. (B) provides 3D visualization of siScore, while (C) provides VIIRS nightlight data in 2019.  
+
+### Figure3 (A) 
+
+1. Open ‘5countries.shp’ and ‘5countries_cloud.shp’ with QGIS software program. 
+2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84’ 
+3. Double click ‘5countries.shp’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘siScore’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 30. 
+4. Press the box of ‘color ramp’ to change color ramp. Set as below.
+        Color point 1 : RGB (0, 0, 0) Relative Position (0.0%)
+        Color point 2 : RGB (231, 94, 20) Relative Position (48.4%)
+        Color point 3 : RGB (245, 209, 0) Relative Position (71.8%)
+        Color point 4 : RGB (255, 255, 255) Relative Position (91.7%)
+        Color point 5 : RGB (255, 255, 255) Relative Position (100.0%)
+
+<img src="./Fig/Figure3_process1.png" width="600"> 
+
+5. Double click ‘5countries_cloud.shp’ and go to the ‘symbology’ tab of layer properties. Change color to (0, 255, 255). 
+
+<img src="./Fig/Figure3_process2.png" width="600"> 
+
+6. Download ‘continent shapefile’ from https://hub.arcgis.com/datasets/esri::world-continents/explore?location=3.062048%2C-53.293423%2C2.64
+7. Upload ‘continent shapefile’ for a background image. Set the color of 'continent shapefile' as gray.
+8. Follow the same step for Figure 2 (A). Export images of five countries and North Korea. 
+9. Put labels and a legend with Microsoft Powerpoint program.
+
+Materials path : `../SpatialData/`  
+Key file : `5countries.shp`     
+
+
+### Figure3 (B)
+1. Open ‘Fig_6_3D.qlr’ file with QGIS. Check if QGIS Layer definition file is connected with ‘5countries.shp’ correctly. 
+2. Open OpenStreetMap for background. You can open OpenStreetmap with ‘XYZ Tiles’ tool of QGIS.
+3. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 46N’ 
+4. Use 3D map by ‘View’ tap > ‘New 3D Map view’
+
+<img src="./Fig/Figure3_process3.png" width="600"> 
+
+5. Scroll wheel to make it 3D view. 
+6. Select only grids of Cambodia to show 3D visualization of siScore in Cambodia.
+7. Print screen and open it with Microsoft Powerpoint software. Put labels and a north arrow. 
+
+Materials path : `../SpatialData/`  
+Key file : `Fig_3_3D.qlr`     
+
+
+### Figure3 (C)
+1. Go to https://eogdata.mines.edu/nighttime_light/annual/v20/2019/
+2. Download ‘VNL_v2_npp_2019_global_vcmslcfg_c202101211500.average.tif.gz’
+3. Upload the yearly aggregated VIIRS nightlight data to QGIS program. Note that this file is not uploaded to Github due to copyright issue.  
+4. Clip the extent of the data area to the boundary of Cambodia, using 'KHM_Boundary.shp'
+5. Open Google Satellite Imagery for background. You can open Google Satellite imagery with ‘XYZ Tiles’ tool of QGIS.
+6. Print screen and open it with Microsoft Powerpoint software. Put labels and a legend. 
+
+Materials path : `../SpatialData/`  
+Key file : `KHM_Boundary.shp`
+
+[Back to top](#Contents)  
+
+---  
+
+## Figure4  
+<img src="./Fig/Figure4.png" width="600">  
 
 **Comparison of model performance in terms of economic indicator prediction for the human-machine collaborative model and four other baselines (NL-regression, NL-guided, Land cover-guided, and RWI) on North Korea and least developed countries (LDCs) in Asia.**  
 
@@ -116,10 +181,10 @@ Based on the GDP per capita (at current prices USD, 2019), we select five countr
 
 
 ### Detail
-Materials path : `../Codes/Fig3_ref/`  
-Key file : `Fig3_evaluation.xlsx`  
+Materials path : `../Codes/Fig4_ref/`  
+Key file : `Fig4_evaluation.xlsx`  
 
-Open ‘Fig3_evaluation.xlsx’.
+Open ‘Fig4_evaluation.xlsx’.
 
 * For evaluation results for 'Building area' at the grid-level
     * Nepal : Go to ‘grid_Nepal’ tab. Do spearman correlation between:
@@ -286,14 +351,14 @@ Open ‘Fig3_evaluation.xlsx’.
 
 ---  
 
-## Figure4  
-<img src="./Fig/Figure4.png" width="300">  
+## Figure5  
+<img src="./Fig/Figure5.png" width="600">  
 
 **The changes in siScore in North Korea from 2016 to 2019.** 
 
 (Left) The changes in North Korea. (Right) Examples of Sentinel-2 images and siScore in model predictions between 2016 and 2019. The top images present industrial development areas in Wiwon county. The bottom images present the recently constructed Kalma tourist project of Wonsan city. The boundaries of these development projects are drawn as red lines. The bottom pictures reveal more vivid changes due to new buildings and roads compared to the top pictures.  
 
-### Figure 4 (Left)
+### Figure 5 (Left)
  
 1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
@@ -301,18 +366,18 @@ Open ‘Fig3_evaluation.xlsx’.
 4. Set ‘color ramp’ as ‘Spectral’. Right-click the color box and press ‘invert Color Ramp’.
 5. Set the class values as below.
 
-<img src="./Fig/Figure4_process1.png" width="600"> 
+<img src="./Fig/Figure5_process1.png" width="300"> 
 
 6. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
 
-<img src="./Fig/Figure4_process2.png" width="600"> 
+<img src="./Fig/Figure5_process2.png" width="600"> 
 
 7. Export the image and put labels and a legend with Microsoft Powerpoint program. 
 
 Materials path : `../SpatialData/`  
 Key file : `NK_siScore_grid.shp`  
 
-### Figure 4 (Top-right)
+### Figure 5 (Top-right)
 
 1. Download Sentinel-2 image from https://earthexplorer.usgs.gov/. 
 2. Download Sentinel-2 tile image ‘T51TYF’. Note that this file is not uploaded to Github due to copyright issue.
@@ -323,11 +388,11 @@ Key file : `NK_siScore_grid.shp`
 7. Click ‘simple fill’ and change ‘fill style’ from ‘solid’ to ‘No brush’.
 8. Export the image.
 
-<img src="./Fig/Figure4_process3.png" width="600">
+<img src="./Fig/Figure5_process3.png" width="600">
 
 9. Draw the boundary of Wiwon project with Microsoft Powerpoint program. You can find the boundary from the reference cited at the manuscript and Supplementary materials. Put labels with Powerpoint program.
 
-### Figure 4 (Bottom-Right)
+### Figure 5 (Bottom-Right)
 
 1. Download Sentinel-2 image from https://earthexplorer.usgs.gov/
 2. Download Sentinel-2 tile image ‘T52SCJ’. Note that this file is not uploaded to Github due to copyright issue.
@@ -338,7 +403,7 @@ Key file : `NK_siScore_grid.shp`
 7. Click ‘simple fill’ and change ‘fill style’ from ‘solid’ to ‘No brush’.
 8. Export the image.
 
-<img src="./Fig/Figure4_process4.png" width="600">
+<img src="./Fig/Figure5_process4.png" width="600">
 
 9. Draw the boundary of Kalma tourist project with Powerpoint program. You can find the boundary from the reference cited at the manuscript and Supplementary materials. Put labels with Powerpoint program.
 
@@ -347,8 +412,8 @@ Key file : `NK_siScore_grid.shp`
 
 ---  
 
-## Figure5  
-<img src="./Fig/Figure5.png" width="500"> 
+## Figure6  
+<img src="./Fig/Figure6.png" width="500"> 
 
 **Model interpretability with Grad-CAM results (2016-2019).**    
 
@@ -356,73 +421,8 @@ Key file : `NK_siScore_grid.shp`
 
 ### Detail  
 
-Materials path : `../Codes/Fig5_ref/`  
-Key file :   `../Codes/Main_Fig5.ipynb`  
-
-[Back to top](#Contents)
-
----  
-
-## Figure6  
-<img src="./Fig/Figure6.png" width="600"> 
-
-**Visualization of economic development predicted by the human-machine collaboration model for North Korea and the 5 least developed countries in Asia.**  
-
-(A) Predictions scores over grid images from 2016 to 2019. The scores are standardized for visualization. The blue area indicates an area which is not available for the satellite images. The zoomed-in views (B-C) compare economic development predictions for Cambodia. (B) provides 3D visualization of siScore, while (C) provides VIIRS nightlight data in 2019.  
-
-### Figure6 (A) 
-
-1. Open ‘5countries.shp’ and ‘5countries_cloud.shp’ with QGIS software program. 
-2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84’ 
-3. Double click ‘5countries.shp’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘siScore’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 30. 
-4. Press the box of ‘color ramp’ to change color ramp. Set as below.
-        Color point 1 : RGB (0, 0, 0) Relative Position (0.0%)
-        Color point 2 : RGB (231, 94, 20) Relative Position (48.4%)
-        Color point 3 : RGB (245, 209, 0) Relative Position (71.8%)
-        Color point 4 : RGB (255, 255, 255) Relative Position (91.7%)
-        Color point 5 : RGB (255, 255, 255) Relative Position (100.0%)
-
-<img src="./Fig/Figure6_process1.png" width="600"> 
-
-5. Double click ‘5countries_cloud.shp’ and go to the ‘symbology’ tab of layer properties. Change color to (0, 255, 255). 
-
-<img src="./Fig/Figure6_process2.png" width="600"> 
-
-6. Download ‘continent shapefile’ from https://hub.arcgis.com/datasets/esri::world-continents/explore?location=3.062048%2C-53.293423%2C2.64
-7. Upload ‘continent shapefile’ for a background image. Set the color of 'continent shapefile' as gray.
-8. Follow the same step for Figure 2 (A). Export images of five countries and North Korea. 
-9. Put labels and a legend with Microsoft Powerpoint program.
-
-Materials path : `../SpatialData/`  
-Key file : `5countries.shp`     
-
-
-### Figure6 (B)
-1. Open ‘Fig_6_3D.qlr’ file with QGIS. Check if QGIS Layer definition file is connected with ‘5countries.shp’ correctly. 
-2. Open OpenStreetMap for background. You can open OpenStreetmap with ‘XYZ Tiles’ tool of QGIS.
-3. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 46N’ 
-4. Use 3D map by ‘View’ tap > ‘New 3D Map view’
-
-<img src="./Fig/Figure6_process3.png" width="600"> 
-
-5. Scroll wheel to make it 3D view. 
-6. Select only grids of Cambodia to show 3D visualization of siScore in Cambodia.
-7. Print screen and open it with Microsoft Powerpoint software. Put labels and a north arrow. 
-
-Materials path : `../SpatialData/`  
-Key file : `Fig_6_3D.qlr`     
-
-
-### Figure6 (C)
-1. Go to https://eogdata.mines.edu/nighttime_light/annual/v20/2019/
-2. Download ‘VNL_v2_npp_2019_global_vcmslcfg_c202101211500.average.tif.gz’
-3. Upload the yearly aggregated VIIRS nightlight data to QGIS program. Note that this file is not uploaded to Github due to copyright issue.  
-4. Clip the extent of the data area to the boundary of Cambodia, using 'KHM_Boundary.shp'
-5. Open Google Satellite Imagery for background. You can open Google Satellite imagery with ‘XYZ Tiles’ tool of QGIS.
-6. Print screen and open it with Microsoft Powerpoint software. Put labels and a legend. 
-
-Materials path : `../SpatialData/`  
-Key file : `KHM_Boundary.shp`
+Materials path : `../Codes/Fig6_ref/`  
+Key file :   `../Codes/Main_Fig6.ipynb`  
 
 [Back to top](#Contents)
 
