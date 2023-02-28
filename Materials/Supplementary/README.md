@@ -429,12 +429,12 @@ Key file :
 
 ## TableS3
 <img src="./Table/TableS3.png" width="600">  
-
+OLS regression result (two-sided) perfromed by using Stata
 
 ### Detail  
 
-Materials path : `../Codes/TableS3_ref/`  
-Key file :    
+Materials path : `../Codes/Table1_TableS3_ref/`  
+Key file : `../Codes/Table1_TableS3_ref/code/regression_tables3_github.do`
 
 [Back to top](#Contents)
 

@@ -437,8 +437,8 @@ Notes: This table reports ordinary least squares (OLS) regression estimates. The
 
 ### Detail  
 
-Materials path : `../Codes/Table1_ref/`  
-Key file :    
+Materials path : `../Codes/Table1_TableS3_ref/`  
+Key file : `../Codes/Table1_TableS3_ref/code/regression_table1_github.do`
 
 [Back to top](#Contents)
 
