@@ -76,7 +76,7 @@ Key file : `NK_grid_building.shp`
 1. Open 'NK_district_statistics.shp' with QGIS program as background. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Fill color with black.
 2. Open 'NK_grid_building.shp'.
 2. Double click shapefile layer and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for building density. Choose ‘BuildDEN’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Natural Breaks (Jenks)’. Change the number of classes as 30. 
-3. Change color ramp to 'Viridis    '. 
+3. Change color ramp to 'Viridis'. 
 4. Export the image and put a legend with Microsoft Powerpoint software.
 
 ### FigureS2 (C)

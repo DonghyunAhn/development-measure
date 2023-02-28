@@ -1,25 +1,25 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
     <customproperties/>
-    <layer-tree-layer expanded="1" source="./5countries.shp" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" id="5countries_f62edbb6_b780_4b25_a44c_876ae210286d" legend_split_behavior="0" name="5countries" legend_exp="">
+    <layer-tree-layer checked="Qt::Checked" source="D:/OneDrive - SNU/Jeasurk Yang/Science_NK/Sentinel2_EconomicScore/Robustness/Cambodia/Score/CB_grid_v2.shp" patch_size="-1,-1" legend_exp="" name="CB_scores copy copy copy" expanded="1" legend_split_behavior="0" id="CB_scores_copy_copy_b21b29e4_52ba_4944_b46c_b1afcdd425f2" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer simplifyLocal="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" type="vector" simplifyDrawingTol="1" readOnly="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" minScale="100000000" wkbType="MultiPolygon" geometry="Polygon" simplifyDrawingHints="1" autoRefreshTime="0" labelsEnabled="0">
+    <maplayer minScale="100000000" readOnly="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" labelsEnabled="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0" maxScale="0" type="vector" autoRefreshTime="0" styleCategories="AllStyleCategories" geometry="Polygon" autoRefreshEnabled="0" simplifyDrawingHints="1">
       <extent>
-        <xmin>80.04638672000000099</xmin>
-        <ymin>9.7956775829999998</ymin>
+        <xmin>102.34863280000000429</xmin>
+        <ymin>10.42298839000000044</ymin>
         <xmax>107.62207030000000429</xmax>
-        <ymax>30.44867367999999885</ymax>
+        <ymax>14.66862590999999938</ymax>
       </extent>
-      <id>5countries_f62edbb6_b780_4b25_a44c_876ae210286d</id>
-      <datasource>./5countries.shp</datasource>
+      <id>CB_scores_copy_copy_b21b29e4_52ba_4944_b46c_b1afcdd425f2</id>
+      <datasource>D:/OneDrive - SNU/Jeasurk Yang/Science_NK/Sentinel2_EconomicScore/Robustness/Cambodia/Score/CB_grid_v2.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>5countries</layername>
+      <layername>CB_scores copy copy copy</layername>
       <srs>
         <spatialrefsys>
           <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
@@ -40,6 +40,15 @@
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -53,12 +62,20 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial miny="0" minx="0" maxz="0" dimensions="2" minz="0" maxx="0" maxy="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="ISO-8859-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -68,177 +85,177 @@
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-3d type="rulebased" layer="5countries_f62edbb6_b780_4b25_a44c_876ae210286d">
+      <renderer-3d type="rulebased" layer="CB_scores_copy_copy_b21b29e4_52ba_4944_b46c_b1afcdd425f2">
         <vector-layer-3d-tiling show-bounding-boxes="0" zoom-levels-count="3"/>
-        <rules key="{85df3dfc-4ef1-41a7-80a9-4af0a84ad6a6}">
-          <rule key="{e607791c-20a6-4d74-ae3b-3fdc22c73479}" filter=" &quot;siScore&quot; >0.8">
+        <rules key="{41878f3e-51f3-4f4c-8ec3-fc8273624923}">
+          <rule key="{d8e17256-ba6e-45b1-9d6b-163a2a00a099}" filter=" &quot;siScore&quot; >0.8">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="absolute"/>
-              <material specular="255,255,255,255" diffuse="173,19,22,255" ambient="242,27,31,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="absolute" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="218,221,22,255" diffuse="253,231,37,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;siScore&quot;*10000" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;siScore&quot;*10000" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                     <Option name="height" type="Map">
-                      <Option name="active" value="false" type="bool"/>
-                      <Option name="type" value="1" type="int"/>
-                      <Option name="val" value="" type="QString"/>
+                      <Option value="false" name="active" type="bool"/>
+                      <Option value="1" name="type" type="int"/>
+                      <Option value="" name="val" type="QString"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
-          <rule key="{bf6d98cd-4930-428c-9454-c4e32aacc96e}" filter=" 0.8 > &quot;siScore&quot; AND   &quot;siScore&quot; > 0.7">
+          <rule key="{7dc6fe79-2066-4bc7-a103-3507b7ea9dc4}" filter=" 0.8 > &quot;siScore&quot; AND   &quot;siScore&quot; > 0.7">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="absolute"/>
-              <material specular="255,255,255,255" diffuse="207,80,52,255" ambient="209,81,52,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="absolute" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="159,254,114,255" diffuse="122,210,81,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;siScore&quot;*10000" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;siScore&quot;*10000" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                     <Option name="height" type="Map">
-                      <Option name="active" value="false" type="bool"/>
-                      <Option name="type" value="1" type="int"/>
-                      <Option name="val" value="" type="QString"/>
+                      <Option value="false" name="active" type="bool"/>
+                      <Option value="1" name="type" type="int"/>
+                      <Option value="" name="val" type="QString"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
-          <rule key="{aa61981a-8126-4598-b253-3ce0d56fafa6}" filter=" 0.7 > &quot;siScore&quot; AND   &quot;siScore&quot; > 0.6">
+          <rule key="{30243b3d-968e-4ffd-8251-e183f2a8e3e7}" filter=" 0.7 > &quot;siScore&quot; AND   &quot;siScore&quot; > 0.6">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="absolute"/>
-              <material specular="255,255,255,255" diffuse="216,135,77,255" ambient="249,155,88,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="absolute" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="89,224,186,255" diffuse="34,168,132,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;siScore&quot;*10000" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;siScore&quot;*10000" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                     <Option name="height" type="Map">
-                      <Option name="active" value="false" type="bool"/>
-                      <Option name="type" value="1" type="int"/>
-                      <Option name="val" value="" type="QString"/>
+                      <Option value="false" name="active" type="bool"/>
+                      <Option value="1" name="type" type="int"/>
+                      <Option value="" name="val" type="QString"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
-          <rule key="{5f9bab9b-e788-4ae2-acc8-bd1a038e2dff}" filter=" 0.6 > &quot;siScore&quot;  AND   &quot;siScore&quot; > 0.4">
+          <rule key="{a37f427b-3a4e-431e-a1f2-e17141c8cba3}" filter=" 0.6 > &quot;siScore&quot;  AND   &quot;siScore&quot; > 0.4">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="absolute"/>
-              <material specular="255,255,255,255" diffuse="210,193,138,255" ambient="255,234,167,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="absolute" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="77,173,199,255" diffuse="41,120,142,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;siScore&quot;*10000" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;siScore&quot;*10000" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                     <Option name="height" type="Map">
-                      <Option name="active" value="false" type="bool"/>
-                      <Option name="type" value="1" type="int"/>
-                      <Option name="val" value="" type="QString"/>
+                      <Option value="false" name="active" type="bool"/>
+                      <Option value="1" name="type" type="int"/>
+                      <Option value="" name="val" type="QString"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
-          <rule key="{0ca8ecbc-6471-4780-b6b6-49950b045690}" filter=" 0.4 > &quot;siScore&quot; AND   &quot;siScore&quot; > 0.2">
+          <rule key="{281baeaa-92d7-41d1-bfbd-746a393a8578}" filter=" 0.4 > &quot;siScore&quot; AND   &quot;siScore&quot; > 0.2">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="absolute"/>
-              <material specular="255,255,255,255" diffuse="141,179,133,255" ambient="175,223,165,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="absolute" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="109,112,178,255" diffuse="64,67,135,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;siScore&quot;*10000" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;siScore&quot;*10000" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                     <Option name="height" type="Map">
-                      <Option name="active" value="false" type="bool"/>
-                      <Option name="type" value="1" type="int"/>
-                      <Option name="val" value="" type="QString"/>
+                      <Option value="false" name="active" type="bool"/>
+                      <Option value="1" name="type" type="int"/>
+                      <Option value="" name="val" type="QString"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
-          <rule key="{a930dd39-0956-49ba-81b1-73c10406d5bb}" filter=" 0.2 > &quot;siScore&quot; AND  &quot;siScore&quot; > 0">
+          <rule key="{980f784a-cf4e-4775-b9cf-7c3ab94a77a3}" filter=" 0.2 > &quot;siScore&quot; AND  &quot;siScore&quot; > 0">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="absolute"/>
-              <material specular="255,255,255,255" diffuse="34,106,150,255" ambient="43,131,186,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="absolute" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="125,32,148,255" diffuse="68,1,84,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="&quot;siScore&quot;*10000" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="&quot;siScore&quot;*10000" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                     <Option name="height" type="Map">
-                      <Option name="active" value="false" type="bool"/>
-                      <Option name="type" value="1" type="int"/>
-                      <Option name="val" value="" type="QString"/>
+                      <Option value="false" name="active" type="bool"/>
+                      <Option value="1" name="type" type="int"/>
+                      <Option value="" name="val" type="QString"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
-          <rule key="{dacad557-5ded-47d6-9ae5-f0ab2a386291}" filter=" &quot;siScore&quot; =0">
+          <rule key="{192bfa7a-4fc6-4052-89d7-15b4e698d7ce}" filter=" &quot;siScore&quot; =0">
             <symbol type="polygon">
-              <data alt-binding="centroid" add-back-faces="0" invert-normals="0" culling-mode="no-culling" height="0" extrusion-height="0" alt-clamping="relative"/>
-              <material specular="255,255,255,255" diffuse="179,179,179,255" ambient="25,25,25,255" shininess="0"/>
+              <data invert-normals="0" extrusion-height="0" add-back-faces="0" alt-clamping="relative" height="0" culling-mode="no-culling" alt-binding="centroid"/>
+              <material specular="255,255,255,255" shininess="0" ambient="115,115,115,255" diffuse="0,0,0,255"/>
               <data-defined-properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties" type="Map">
                     <Option name="extrusionHeight" type="Map">
-                      <Option name="active" value="true" type="bool"/>
-                      <Option name="expression" value="1" type="QString"/>
-                      <Option name="type" value="3" type="int"/>
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="1" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
                     </Option>
                   </Option>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data-defined-properties>
-              <edges width="1" enabled="1" color="0,0,0,255"/>
+              <edges width="1" color="0,0,0,255" enabled="1"/>
             </symbol>
           </rule>
         </rules>
@@ -248,7 +265,7 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal fixedDuration="0" accumulate="0" startExpression="" enabled="0" endField="" startField="" mode="0" endExpression="" durationUnit="min" durationField="">
+      <temporal endExpression="" mode="0" durationUnit="min" fixedDuration="0" startField="" endField="" startExpression="" enabled="0" durationField="" accumulate="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -264,34 +281,34 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" scaleDependency="Area" rotationOffset="270" spacingUnit="MM" sizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" direction="1" lineSizeType="MM" scaleBasedVisibility="0" penColor="#000000" spacing="0" backgroundColor="#ffffff" showAxis="0" penWidth="0" backgroundAlpha="255" minimumSize="0" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" opacity="1" minScaleDenominator="0" width="15" penAlpha="255" diagramOrientation="Up" height="15" barWidth="5">
-          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penWidth="0" lineSizeType="MM" spacing="0" sizeType="MM" width="15" scaleBasedVisibility="0" minScaleDenominator="0" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" showAxis="0" enabled="0" labelPlacementMethod="XHeight" spacingUnit="MM" barWidth="5" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" backgroundColor="#ffffff" minimumSize="0" backgroundAlpha="255" opacity="1" rotationOffset="270" penAlpha="255" height="15" maxScaleDenominator="1e+08" direction="1" spacingUnitScale="3x:0,0,0,0,0,0" penColor="#000000">
+          <fontProperties style="" description="Gulim,9,-1,5,50,0,0,0,0,0"/>
           <attribute field="" label="" color="#000000"/>
           <axisSymbol>
-            <symbol alpha="1" name="" clip_to_extent="1" type="line" force_rhr="0">
-              <layer locked="0" class="SimpleLine" enabled="1" pass="0">
-                <prop k="capstyle" v="square"/>
-                <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="customdash_unit" v="MM"/>
-                <prop k="draw_inside_polygon" v="0"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="line_color" v="35,35,35,255"/>
-                <prop k="line_style" v="solid"/>
-                <prop k="line_width" v="0.26"/>
-                <prop k="line_width_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="ring_filter" v="0"/>
-                <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <symbol clip_to_extent="1" force_rhr="0" name="" alpha="1" type="line">
+              <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option name="name" value="" type="QString"/>
+                    <Option value="" name="name" type="QString"/>
                     <Option name="properties"/>
-                    <Option name="type" value="collection" type="QString"/>
+                    <Option value="collection" name="type" type="QString"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -299,22 +316,22 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings placement="1" dist="0" obstacle="0" linePlacementFlags="18" zIndex="0" priority="0" showAll="1">
+      <DiagramLayerSettings dist="0" showAll="1" zIndex="0" placement="1" linePlacementFlags="18" obstacle="0" priority="0">
         <properties>
           <Option type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration type="Map">
           <Option name="QgsGeometryGapCheck" type="Map">
-            <Option name="allowedGapsBuffer" value="0" type="double"/>
-            <Option name="allowedGapsEnabled" value="false" type="bool"/>
-            <Option name="allowedGapsLayer" value="" type="QString"/>
+            <Option value="0" name="allowedGapsBuffer" type="double"/>
+            <Option value="false" name="allowedGapsEnabled" type="bool"/>
+            <Option value="" name="allowedGapsLayer" type="QString"/>
           </Option>
         </checkConfiguration>
       </geometryOptions>
@@ -335,38 +352,118 @@
             </config>
           </editWidget>
         </field>
+        <field name="NL19_mean">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wpop20_sum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Fpopden20_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LULC16_mea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rwi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="error">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RWI_2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias field="y_x" index="0" name=""/>
         <alias field="siScore" index="1" name=""/>
+        <alias field="NL19_mean" index="2" name=""/>
+        <alias field="Wpop20_sum" index="3" name=""/>
+        <alias field="Fpopden20_" index="4" name=""/>
+        <alias field="LULC16_mea" index="5" name=""/>
+        <alias field="rwi" index="6" name=""/>
+        <alias field="error" index="7" name=""/>
+        <alias field="RWI_2" index="8" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="y_x" applyOnUpdate="0" expression=""/>
-        <default field="siScore" applyOnUpdate="0" expression=""/>
+        <default applyOnUpdate="0" field="y_x" expression=""/>
+        <default applyOnUpdate="0" field="siScore" expression=""/>
+        <default applyOnUpdate="0" field="NL19_mean" expression=""/>
+        <default applyOnUpdate="0" field="Wpop20_sum" expression=""/>
+        <default applyOnUpdate="0" field="Fpopden20_" expression=""/>
+        <default applyOnUpdate="0" field="LULC16_mea" expression=""/>
+        <default applyOnUpdate="0" field="rwi" expression=""/>
+        <default applyOnUpdate="0" field="error" expression=""/>
+        <default applyOnUpdate="0" field="RWI_2" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" field="y_x" constraints="0" notnull_strength="0" exp_strength="0"/>
-        <constraint unique_strength="0" field="siScore" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint exp_strength="0" field="y_x" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="siScore" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="NL19_mean" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Wpop20_sum" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Fpopden20_" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="LULC16_mea" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="rwi" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="error" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="RWI_2" unique_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="y_x" exp="" desc=""/>
-        <constraint field="siScore" exp="" desc=""/>
+        <constraint desc="" field="y_x" exp=""/>
+        <constraint desc="" field="siScore" exp=""/>
+        <constraint desc="" field="NL19_mean" exp=""/>
+        <constraint desc="" field="Wpop20_sum" exp=""/>
+        <constraint desc="" field="Fpopden20_" exp=""/>
+        <constraint desc="" field="LULC16_mea" exp=""/>
+        <constraint desc="" field="rwi" exp=""/>
+        <constraint desc="" field="error" exp=""/>
+        <constraint desc="" field="RWI_2" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column width="-1" name="y_x" hidden="0" type="field"/>
-          <column width="-1" name="begin" hidden="0" type="field"/>
-          <column width="-1" name="end" hidden="0" type="field"/>
-          <column width="-1" name="y_x_2" hidden="0" type="field"/>
-          <column width="-1" name="score" hidden="0" type="field"/>
-          <column width="355" name="siScore" hidden="0" type="field"/>
-          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" name="y_x" type="field" hidden="0"/>
+          <column width="355" name="siScore" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+          <column width="-1" name="NL19_mean" type="field" hidden="0"/>
+          <column width="-1" name="Wpop20_sum" type="field" hidden="0"/>
+          <column width="-1" name="Fpopden20_" type="field" hidden="0"/>
+          <column width="-1" name="LULC16_mea" type="field" hidden="0"/>
+          <column width="-1" name="rwi" type="field" hidden="0"/>
+          <column width="-1" name="error" type="field" hidden="0"/>
+          <column width="-1" name="RWI_2" type="field" hidden="0"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -398,24 +495,38 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field editable="1" name="begin"/>
-        <field editable="1" name="end"/>
-        <field editable="1" name="score"/>
-        <field editable="1" name="siScore"/>
-        <field editable="1" name="y_x"/>
-        <field editable="1" name="y_x_2"/>
+        <field name="Fpopden20_" editable="1"/>
+        <field name="LULC16_mea" editable="1"/>
+        <field name="NL19_mean" editable="1"/>
+        <field name="RWI_2" editable="1"/>
+        <field name="Wpop20_sum" editable="1"/>
+        <field name="begin" editable="1"/>
+        <field name="end" editable="1"/>
+        <field name="error" editable="1"/>
+        <field name="rwi" editable="1"/>
+        <field name="score" editable="1"/>
+        <field name="siScore" editable="1"/>
+        <field name="y_x" editable="1"/>
+        <field name="y_x_2" editable="1"/>
       </editable>
       <labelOnTop>
-        <field name="begin" labelOnTop="0"/>
-        <field name="end" labelOnTop="0"/>
-        <field name="score" labelOnTop="0"/>
-        <field name="siScore" labelOnTop="0"/>
-        <field name="y_x" labelOnTop="0"/>
-        <field name="y_x_2" labelOnTop="0"/>
+        <field labelOnTop="0" name="Fpopden20_"/>
+        <field labelOnTop="0" name="LULC16_mea"/>
+        <field labelOnTop="0" name="NL19_mean"/>
+        <field labelOnTop="0" name="RWI_2"/>
+        <field labelOnTop="0" name="Wpop20_sum"/>
+        <field labelOnTop="0" name="begin"/>
+        <field labelOnTop="0" name="end"/>
+        <field labelOnTop="0" name="error"/>
+        <field labelOnTop="0" name="rwi"/>
+        <field labelOnTop="0" name="score"/>
+        <field labelOnTop="0" name="siScore"/>
+        <field labelOnTop="0" name="y_x"/>
+        <field labelOnTop="0" name="y_x_2"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression>y_x</previewExpression>
+      <previewExpression>"y_x"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </maplayers>
