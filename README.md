@@ -51,7 +51,8 @@ Dataset in ```data``` directory is sampled example from the original dataset. Th
 
 ## Reproducing Figs/Tables  
 ### siScore prediction on North Korea  
-<img src="./Materials/Main/Fig/Figure2.png" width="600"> 
+<img src="./Materials/Main/Fig/Figure2.png" width="600">  
+
 [__Main text__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Main)  
 [__Supplemetary__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Supplementary)
 
