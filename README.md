@@ -20,6 +20,10 @@ Dataset in ```data``` directory is sampled example from the original dataset. Th
 ## siScore prediction on North Korea  
 <img src="./Materials/Main/Fig/Figure2.png" width="600">  
 
+**Visualization of economic development levels predicted by our human-machine collaboration model.**  
+
+(A) Prediction scores over grid images averaged over four years from 2016 to 2019, (B) shows the yearly aggregated VIIRS nightlight data in 2019, and (C) shows the land cover classification map released by the South Korean Government in 2019. The zoomed-in views in (D–F) compare predictions for Sepho County in the Kangwon region. From left to right are the Sentinel-2 satellite images taken in 2019 (D), model predictions (E), and manually verified buildings colored red from the building footprint data in 2014 (F).
+
 ---
 ## Reproducing Figs/Tables  
 
