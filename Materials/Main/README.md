@@ -363,7 +363,7 @@ Open ‘Fig4_evaluation.xlsx’.
 1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
 3. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘19_16’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 7. 
-4. Set ‘color ramp’ as ‘Spectral’. Right-click the color box and press ‘invert Color Ramp’.
+4. Set ‘color ramp’ as ‘RdBu'. Right-click the color box and press ‘invert Color Ramp’.
 5. Set the class values as below.
 
 <img src="./Fig/Figure5_process1.png" width="300"> 
