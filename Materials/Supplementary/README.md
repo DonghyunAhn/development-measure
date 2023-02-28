@@ -168,9 +168,12 @@ Key file : `NK_district_statistics.shp`
 ## FigureS4  
 <img src="./Fig/FigureS4.png" width="600">  
 
-### Detail  
+The silhouette analysis of North Korea's urban and rural clusters.  
+A high silhouette score indicates well-separated clusters where each image’s distance from its own cluster is smaller than that from the nearest neighbor cluster over the embedding space.  
+Please see `../../Stage1/Readme.md` for more information
 
-Materials path : `../Codes/Fig2_ref/`  
+### Detail  
+Materials path : `../../Stage1/`  
 
 [Back to top](#Contents)
 
@@ -179,9 +182,8 @@ Materials path : `../Codes/Fig2_ref/`
 ## FigureS5  
 <img src="./Fig/FigureS5.png" width="600">  
 
-### Detail  
-
-Materials path : `../Codes/Fig2_ref/`  
+Three representative HQ functions demonstrate their superiority over the conventional L2 loss, especially for large ordering deviances.  
+Among them, our algorithm utilizes the Welsch function for the ensemble process because of its robustness against outliers.
 
 [Back to top](#Contents)
 
@@ -190,6 +192,15 @@ Materials path : `../Codes/Fig2_ref/`
 ## FigureS6  
 <img src="./Fig/FigureS6.png" width="600">  
 
+Illustration of the POG generation process. Each cluster contains satellite images that show similar visual patterns of human artifacts and landscapes. Human participants assess clusters by visually inspecting the images in each cluster, to finally order the clusters by the level of economic development.  
+
+[Back to top](#Contents)
+
+---  
+
+## FigureS7  
+<img src="./Fig/FigureS7.png" width="600">  
+
 ### Detail  
 
 1. Download Sentinel-2 satellite images from usgs earthexplorer website. The file is not uploaded to Github due to copyright issue.
@@ -197,21 +208,21 @@ Materials path : `../Codes/Fig2_ref/`
 3. Clip Sentinel-2 images and land cover classification map with the extent of zoom-level 14 grids. 
 
 <p>
-  <img src="./Fig/FigureS6_image1.png" width="100">
-  <img src="./Fig/FigureS6_image2.png" width="100">  
-  <img src="./Fig/FigureS6_image3.png" width="100">  
-  <img src="./Fig/FigureS6_image4.png" width="100">
-  <img src="./Fig/FigureS6_image5.png" width="100">  
-  <img src="./Fig/FigureS6_image6.png" width="100">  
+  <img src="./Fig/FigureS7_image1.png" width="100">
+  <img src="./Fig/FigureS7_image2.png" width="100">  
+  <img src="./Fig/FigureS7_image3.png" width="100">  
+  <img src="./Fig/FigureS7_image4.png" width="100">
+  <img src="./Fig/FigureS7_image5.png" width="100">  
+  <img src="./Fig/FigureS7_image6.png" width="100">  
 </p>
 
 <p>
-  <img src="./Fig/FigureS6_image7.png" width="100">
-  <img src="./Fig/FigureS6_image8.png" width="100">  
-  <img src="./Fig/FigureS6_image9.png" width="100">  
-  <img src="./Fig/FigureS6_image10.png" width="100">
-  <img src="./Fig/FigureS6_image11.png" width="100">  
-  <img src="./Fig/FigureS6_image12.png" width="100">  
+  <img src="./Fig/FigureS7_image7.png" width="100">
+  <img src="./Fig/FigureS7_image8.png" width="100">  
+  <img src="./Fig/FigureS7_image9.png" width="100">  
+  <img src="./Fig/FigureS7_image10.png" width="100">
+  <img src="./Fig/FigureS7_image11.png" width="100">  
+  <img src="./Fig/FigureS7_image12.png" width="100">  
 </p>
 
 
@@ -224,12 +235,12 @@ Materials path : `../Codes/Fig2_ref/`
 
 ---  
 
-## FigureS7  
-<img src="./Fig/FigureS7.png" width="600">  
+## FigureS8  
+<img src="./Fig/FigureS8.png" width="600">  
 
 ### Detail  
 
-1. Open ‘Fig_S7_3D.qlr’ file with QGIS. Check if QGIS Layer definition file is connected with ‘NK_siScore_district.shp’ correctly. 
+1. Open ‘Fig_S8_3D.qlr’ file with QGIS. Check if QGIS Layer definition file is connected with ‘NK_siScore_district.shp’ correctly. 
 2. Open Google Satellite iMagery for background. You can open Google Satellite iMagery with ‘XYZ Tiles’ tool of QGIS.
 3. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
 4. Use 3D map by ‘View’ tap > ‘New 3D Map view’
@@ -237,18 +248,16 @@ Materials path : `../Codes/Fig2_ref/`
 6. Print screen and open it with Microsoft Powerpoint software. Put labels and a north arrow. 
 
 Materials path : `../SpatialData/`  
-Key file : `Fig_S7_3D.qlr` 
-
-Materials path : `../Codes/Fig2_ref/`  
+Key file : `Fig_S8_3D.qlr`  
 
 [Back to top](#Contents)
 
 ---  
 
-## FigureS8  
-<img src="./Fig/FigureS8.png" width="600">  
+## FigureS9  
+<img src="./Fig/FigureS9.png" width="600">  
 
-### FigureS8 (Top)
+### FigureS9 (Top)
 
 1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
@@ -260,7 +269,7 @@ Materials path : `../Codes/Fig2_ref/`
         Color point 4 : RGB (253, 174, 97) Relative Position (50.0%)
         Color point 5 : RGB (215, 25, 28) Relative Position (100.0%)
 
-<img src="./Fig/FigureS7_process1.png" width="600"> 
+<img src="./Fig/FigureS8_process1.png" width="600"> 
 
 5. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
 6. Export the image of siScore 2016 and put labels and a legend with Microsoft Powerpoint program. 
@@ -273,7 +282,7 @@ Key file : `NK_siScore_grid.shp`
 
 
 
-### FigureS8 (Bottom)
+### FigureS9 (Bottom)
 
 1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
@@ -297,10 +306,10 @@ Key file : `NK_siScore_grid.shp`
 
 ---  
 
-## FigureS9  
-<img src="./Fig/FigureS9.png" width="600">  
+## FigureS10  
+<img src="./Fig/FigureS10.png" width="600">  
 
-### FigureS9 (Top)
+### FigureS10 (Top)
 
 1. Download Sentinel-2 image from https://earthexplorer.usgs.gov/
 2. Download Sentinel-2 tile image ‘T52SCJ’ in 2016 and 2019. Note that this file is not uploaded to Github due to copyright issue.
@@ -317,11 +326,11 @@ Key file : `NK_siScore_grid.shp`
 13. Set radius as 100. 
 14. Export the image.
 
-<img src="./Fig/FigureS9_process1.png" width="600">
+<img src="./Fig/FigureS10_process1.png" width="600">
 
 15. Draw the boundary of Kalma tourist project with Powerpoint program. You can find the boundary from the reference cited at the manuscript and Supplementary materials. Put labels with Powerpoint program.
 
-### FigureS9 (Bottom)
+### FigureS10 (Bottom)
 
 1. Download Sentinel-2 image from https://earthexplorer.usgs.gov/. 
 2. Download Sentinel-2 tile image ‘T51TYF’. Note that this file is not uploaded to Github due to copyright issue.
@@ -338,7 +347,7 @@ Key file : `NK_siScore_grid.shp`
 13. Set radius as 100. 
 14. Export the image.
 
-<img src="./Fig/FigureS9_process2.png" width="600">
+<img src="./Fig/FigureS10_process2.png" width="600">
 
 15. Draw the boundary of Wiwon project with Microsoft Powerpoint program. You can find the boundary from the reference cited at the manuscript and Supplementary materials. Put labels with Powerpoint program.
 
@@ -348,10 +357,10 @@ Key file : `NK_siScore_grid.shp`
 
 ---  
 
-## FigureS10  
-<img src="./Fig/FigureS10.png" width="600">  
+## FigureS11  
+<img src="./Fig/FigureS11.png" width="600">  
 
-### FigureS10 (Top)
+### FigureS11 (Top)
 
 1. Open ‘5countries.shp’ and ‘5countries_cloud.shp’ with QGIS software program. 
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84’ 
@@ -373,7 +382,7 @@ Materials path : `../SpatialData/`
 Key file : `5countries.shp`  
 
 
-### FigureS10 (bottom)
+### FigureS11 (bottom)
 
 1. Go to https://eogdata.mines.edu/nighttime_light/annual/v20/2019/
 2. Download ‘VNL_v2_npp_2019_global_vcmslcfg_c202101211500.average.tif.gz’
