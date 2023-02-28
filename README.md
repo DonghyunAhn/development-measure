@@ -50,6 +50,8 @@ Dataset in ```data``` directory is sampled example from the original dataset. Th
 ---  
 
 ## Reproducing Figs/Tables  
+[__Main text__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Main)
+[__Supplemetary__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Supplementary)
 
 ---  
  
