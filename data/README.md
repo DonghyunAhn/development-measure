@@ -1,7 +1,7 @@
 ## Data availability     
 
-Due to the data capacity limit of, we partially uploads the data on this repository.  
-If you want to attach the data, please contact to `segaukwa@gmail.com`.  
+Due to data capacity limitations, we have only partially uploaded the data to this repository.  
+If you would like to access the complete dataset, please contact us at ```segaukwa@gmail.com```.  
 
 ### North Korea  
 
