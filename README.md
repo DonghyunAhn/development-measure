@@ -32,7 +32,7 @@ To reproduce the Figures and Tables in the ...
 [__Main text__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Main)  
 [__Supplemetary__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Supplementary)  
 
-, please follow the instructions provided at the links above.  
+please follow the instructions provided at the links above.  
 
 ---  
 
