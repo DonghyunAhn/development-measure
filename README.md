@@ -30,7 +30,7 @@ Dataset in ```data``` directory is sampled example from the original dataset. Th
 To reproduce the Figures and Tables in the ...     
 
 [__Main text__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Main)  
-[__Supplemetary__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Supplementary)  
+[__Supplemetary Materials__](https://github.com/DonghyunAhn/development-measure/tree/main/Materials/Supplementary)  
 
 please follow the instructions provided at the links above.  
 
@@ -71,4 +71,4 @@ OS : linux 4.4.0-190-generic
 
 ---  
  
-Contributor : TA, EL, JY
+Contributor : DA, EL, JY
