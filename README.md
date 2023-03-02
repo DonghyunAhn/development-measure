@@ -40,9 +40,9 @@ please follow the instructions provided at the links above.
 
 ### Module dependencies
 
-This code has been tested and confirmed to be reproducible with ![Python Version](https://img.shields.io/badge/Python-3.7.10%2B-blue) or higher versions.  
+This code has been tested and confirmed to be reproducible with ![Python Version](https://img.shields.io/badge/Python-3.7.10%2B-blue) or higher versions, and has been developed using ![CUDA Version](https://img.shields.io/badge/CUDA-10.0-blue).  
 
-This code has been tested on the following environment :
+Also, all code has been tested on the following environment :
 ```
 torch==1.11.0
 torchvision==0.8.2
@@ -51,9 +51,11 @@ scipy==1.6.2
 sklearn==0.23.2
 scikit-image==0.19.2
 pandas==1.1.4
+geopandas==0.10.2
 Pillow=8.2.0
 opencv-python==4.7.0.72
-faiss==1.5.3
+faiss-cpu==1.7.3
+faiss-gpu==1.7.2
 ```
 
 Following command can replicate the full environment :
