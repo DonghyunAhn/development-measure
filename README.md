@@ -40,7 +40,9 @@ Please follow instruction on the links above.
 
 ### Module dependencies
 
-The code has been tested on the following environment :
+This code has been tested and confirmed to be reproducible with ![Python Version](https://img.shields.io/badge/Python-3.7.10%2B-blue) or higher versions.  
+
+This code has been tested on the following environment :
 ```
 torch==1.11.0
 torchvision==0.8.2
