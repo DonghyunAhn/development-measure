@@ -507,7 +507,7 @@ Open ‘TableS4_evaluation.xlsx’.
 
 
 ## TableS5
-<img src="./Table/TableS5.png" width="300">  
+<img src="./Table/TableS5.png" width="400">  
 
 
 ### Detail  
@@ -529,7 +529,7 @@ csv files, which are the prediction result on North Korea.
 
 
 ## TableS6
-<img src="./Table/TableS6.png" width="400">  
+<img src="./Table/TableS6.png" width="600">  
 
 
 ### Detail  
@@ -552,7 +552,7 @@ applied to NK (0.0924).
 
 
 ## TableS7
-<img src="./Table/TableS7.png" width="400">  
+<img src="./Table/TableS7.png" width="600">  
 
 
 ### Detail  
@@ -568,7 +568,7 @@ Comparing our model to the model utilizes data-driven POG in Stage 2 / the regre
 
 
 ## TableS8
-<img src="./Table/TableS8.png" width="400">  
+<img src="./Table/TableS8.png" width="600">  
 
 
 ### Detail  
@@ -585,7 +585,7 @@ Test for the model hiring pairwise loss/ triplet loss (margin = 0.5).
 
 
 ## TableS8
-<img src="./Table/TableS8.png" width="600">  
+<img src="./Table/TableS9.png" width="600">  
 
 ### Detail  
 
