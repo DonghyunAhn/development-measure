@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Ahn
+    given-names: Donghyun
+    orcid: https://orcid.org/0000-0001-8473-9598
+title: DonghyunAhn/development-measure: dev-measure-v0
+version: v0.1.1
+date-released: 2023-03-03
