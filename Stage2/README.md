@@ -14,7 +14,7 @@ The uninhabited cluster (22), which is not asked to the annotators, automaticall
 
 In this research, we call this human labels as the **'Partial order graph(POG)'**.  
 
-Ten human participants of varying backgrounds (i.e., satellite imagery experts, North Korean defectors, and economists) were recruited to build POGs.  
+Ten human experts of varying backgrounds (i.e., satellite imagery experts, North Korean defectors, and economists) were recruited to build POGs.  
 
 The annotation results are listed in `./POG_annotation` directory.  
 

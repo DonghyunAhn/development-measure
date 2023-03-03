@@ -192,7 +192,7 @@ Among them, our algorithm utilizes the Welsch function for the ensemble process 
 ## FigureS6  
 <img src="./Fig/FigureS6.png" width="600">  
 
-Illustration of the POG generation process. Each cluster contains satellite images that show similar visual patterns of human artifacts and landscapes. Human participants assess clusters by visually inspecting the images in each cluster, to finally order the clusters by the level of economic development.  
+Illustration of the POG generation process. Each cluster contains satellite images that show similar visual patterns of human artifacts and landscapes. Human experts assess clusters by visually inspecting the images in each cluster, to finally order the clusters by the level of economic development.  
 
 [Back to top](#Contents)
 
@@ -400,7 +400,7 @@ Key file : `5countries.shp`
 ## TableS1
 <img src="./Table/TableS1.png" width="600">  
 
-Cross-participant agreement measured by the Kendall-τ coefficient (τB) across the POG annotations. (Sat: satellite imagery experts, Loc: North Korean locals and defectors, Eco: economists)
+Cross-POG agreement measured by the Kendall-τ coefficient (τB) across the POG annotations. (Sat: satellite imagery experts, Loc: North Korean locals and defectors, Eco: economists)
 
 
 ### Detail  
