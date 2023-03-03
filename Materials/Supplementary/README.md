@@ -535,7 +535,7 @@ csv files, which are the prediction result on North Korea.
 ### Detail  
 
 Materials path : `../Codes/TableS5_S6_S7_S8_ref/`  
-Key file :  `NK_NL_guided.csv`, `NK_LC_guided.csv`, `train_Bangladesh_Nepal-val_SK_to_NK.csv`, `train_Bangladesh_Nepal-val_SK_to_NK`, `train_Nepal_SK-val_Bangladesh_to_NK`, `train_val_split8020_Bangladesh_Nepal_SK_to_NK`       
+Key file :  `NK_NL_guided.csv`, `NK_LC_guided.csv`, `train_Bangladesh_Nepal-val_SK_to_NK.csv`, `train_Bangladesh_Nepal-val_SK_to_NK.csv`, `train_Nepal_SK-val_Bangladesh_to_NK.csv`, `train_val_split_8020_Bangladesh_Nepal_SK_to_NK.csv`       
 
 Baseline model performances trained in multiple countries: Nepal, Bangladesh, and South Korea 
 (SK). The leave-one-country-out validation with tuned hyperparameters 
