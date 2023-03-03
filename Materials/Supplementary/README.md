@@ -512,8 +512,8 @@ Open ‘TableS4_evaluation.xlsx’.
 
 ### Detail  
 
-Materials path : `../Codes/TableS5_S6_S7_ref/`  
-Key file :  `Nepal_to_NK.csv`, `Bangladesh_to_NK.csv`  
+Materials path : `../Codes/TableS5_S6_S7_S8_ref/`  
+Key file :  `Nepal_to_NK.csv`, `Bangladesh_to_NK.csv`, `SK_to_NK.csv`    
 
 On this experiment, we first collect floor area of two countries: Nepal, Bangladesh.  
 OpenStreetMap helps to collect ground truth on both countries.
@@ -534,10 +534,17 @@ csv files, which are the prediction result on North Korea.
 
 ### Detail  
 
-Materials path : `../Codes/TableS5_S6_S7_ref/`  
-Key file :  `NK_score_hyperlocal.csv`, `NK_NL_guided.csv`, `NK_LC_guided.csv`  
+Materials path : `../Codes/TableS5_S6_S7_S8_ref/`  
+Key file :  `NK_NL_guided.csv`, `NK_LC_guided.csv`, `train_Bangladesh_Nepal-val_SK_to_NK.csv`, `train_Bangladesh_Nepal-val_SK_to_NK`, `train_Nepal_SK-val_Bangladesh_to_NK`, `train_val_split8020_Bangladesh_Nepal_SK_to_NK`       
 
-Comparing our model to the other recent model / the model utilizes data-driven POG in Stage 2 / the regression model.  
+Baseline model performances trained in multiple countries: Nepal, Bangladesh, and South Korea 
+(SK). The leave-one-country-out validation with tuned hyperparameters 
+was used for maximizing out-of-sample generalization ([Ref](https://www.nature.com/articles/s41467-020-16185-w)). Table S6 shows that models trained 
+in any two out of the three countries show poor performances when applied to NK. For example, 
+even when a model that performed well with the validation set—the model trained with Nepal and 
+Bangladesh—fails to maintain the performance when applied to North Korea. The same challenge 
+exists with the model trained with all three countries: its performance degrades significantly when 
+applied to NK (0.0924).
 
 [Back to top](#Contents)
 
@@ -550,7 +557,23 @@ Comparing our model to the other recent model / the model utilizes data-driven P
 
 ### Detail  
 
-Materials path : `../Codes/TableS5_S6_S7_ref/`  
+Materials path : `../Codes/TableS5_S6_S7_S8_ref/`  
+Key file :  `NK_NL_guided.csv`, `NK_LC_guided.csv`  
+
+Comparing our model to the model utilizes data-driven POG in Stage 2 / the regression model.  
+
+[Back to top](#Contents)
+
+---  
+
+
+## TableS8
+<img src="./Table/TableS8.png" width="400">  
+
+
+### Detail  
+
+Materials path : `../Codes/TableS5_S6_S7_S8_ref/`  
 Key file :    `NK_score_pairwise_05.csv`, `NK_score_triplet_05.csv`
 
 Report performance of our model's ablation studies (on other loss function).  
@@ -566,10 +589,10 @@ Test for the model hiring pairwise loss/ triplet loss (margin = 0.5).
 
 ### Detail  
 
-Materials path : `../Codes/TableS8_ref/`  
-Key file : `TableS8_evaluation.xlsx`   
+Materials path : `../Codes/TableS9_ref/`  
+Key file : `TableS9_evaluation.xlsx`   
 
-Open ‘TableS8_evaluation.xlsx’.
+Open ‘TableS9_evaluation.xlsx’.
 
 1. For calculating Mean, Median, S.D., P25, and P75 of 2016 model score, use 'year2016' column.
 2. For calculating Mean, Median, S.D., P25, and P75 of 2019 model score, use 'year2019' column.
@@ -581,8 +604,8 @@ Open ‘TableS8_evaluation.xlsx’.
 ---  
 
 
-## TableS9
-<img src="./Table/TableS9.png" width="600">  
+## TableS10
+<img src="./Table/TableS10.png" width="600">  
 
 
 ### Detail  
@@ -594,20 +617,15 @@ Reference : United Nations Statistics Division, UN Data (2021).
 ---  
 
 
-## TableS10
-<img src="./Table/TableS10.png" width="600">  
+## TableS11
+<img src="./Table/TableS11.png" width="600">  
 
 ### Detail  
 1. Download OpenStreetmap data of Bangladesh, Cambodia, Laos, Myanmar, Nepal, and North Korea  from 'https://www.geofabrik.de/'. Note that the file is not uploaded to Github due to copyright issue.
 2. Open building footprint shapefiles with QGIS. 
 3. Open attribute table of each shapefile. Add a new field for calculating area of all features.
 4. Open dbf file of each shapefile. Calculate the total number of buildings, total area, the number of buildings per area.
-
-
-
-
-Materials path : `../Codes/TableS10_ref/`  
-Key file :    
+ 
 
 [Back to top](#Contents)
 
