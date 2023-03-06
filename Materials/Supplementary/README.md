@@ -290,11 +290,11 @@ Key file : `NK_siScore_grid.shp`
 4. Set ‘color ramp’ as ‘Spectral’. Right-click the color box and press ‘invert Color Ramp’.
 5. Set the class values as below.
 
-<img src="./Fig/Figure4_process1.png" width="300"> 
+<img src="./Fig/Figure5_process1.png" width="300"> 
 
 6. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
 
-<img src="./Fig/Figure4_process2.png" width="600"> 
+<img src="./Fig/Figure5_process2.png" width="600"> 
 
 7. Export the image and put labels and a legend with Microsoft Powerpoint program. 
 
