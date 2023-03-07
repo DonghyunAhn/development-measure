@@ -262,14 +262,9 @@ Key file : `Fig_S8_3D.qlr`
 1. Open ‘NK_siScore_grid.shp’ with QGIS software program.
 2. Set coordinate system of QGIS project by ‘Project’ tap > ‘Properties’ > ‘CRS’ > choose ‘WGS 84 / UTM zone 52N’ 
 3. Double click ‘NK_siScore_grid’ and go to the ‘symbology’ tab of layer properties. Choose ‘Graduated’ symbol function to create graduated symbols for siScore. Choose ‘year2016’ for the value. Change mode from ‘Equal Count (Quantile)’ to ‘Equal Interval’. Change the number of classes as 30. 
-4. Press the box of ‘color ramp’ to change color ramp. Set as below.
-        Color point 1 : RGB (43, 131, 186) Relative Position (0.0%)
-        Color point 2 : RGB (171, 221, 164) Relative Position (10.0%)
-        Color point 3 : RGB (255, 255, 191) Relative Position (20.0%)
-        Color point 4 : RGB (253, 174, 97) Relative Position (50.0%)
-        Color point 5 : RGB (215, 25, 28) Relative Position (100.0%)
+4. Press the box of ‘color ramp’ to change color ramp as 'RdBu'.  
 
-<img src="./Fig/FigureS8_process1.png" width="600"> 
+<img src="./Fig/FigureS9_process1.png" width="600"> 
 
 5. Put the black base North Korea boundary shapefile (‘NK_Boundary_2008.shp’) as background.
 6. Export the image of siScore 2016 and put labels and a legend with Microsoft Powerpoint program. 
