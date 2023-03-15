@@ -20,9 +20,7 @@ Dataset in ```data``` directory is sampled example from the original dataset. Th
 ## siScore prediction on North Korea  
 ### Interactive siScore map example   
  **District-level siScore map on North Korea**  
-<div markdown="0">  
-<iframe src="./Normalized_NK_siScore_district.html" height="800" width="800"></iframe>
-</div>  
+ [![Interactive siScore map District-level](./interactive_map_teaser.png)](https://www.siscore.app/interactive_map/NK-siScore-District/)
 
 Check out for more examples at [siscore.app](siscore.app)
 
