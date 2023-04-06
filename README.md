@@ -21,7 +21,7 @@ Dataset in ```data``` directory is sampled example from the original dataset. Th
 ### Interactive siScore map example : District-level siScore map on North Korea  
  [![Interactive siScore map District-level](./interactive_map_teaser.png)](https://www.siscore.app/interactive_map/NK-siScore-District/)
 
-Check out for more examples at [siscore.app](www.siscore.app)  
+Check out for more examples at [siscore.app](https://www.siscore.app)  
 Original data [here (2016~2019)](https://github.com/DonghyunAhn/development-measure/blob/main/Materials/Codes/TableS5_S6_S7_S8_ref/nk_NK_scores.csv)  
 
 ### Visualization of economic development levels predicted by our human-machine collaboration model.  
