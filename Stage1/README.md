@@ -35,7 +35,9 @@ Example
 
 Saved Model Example
 
-```checkpoint_sample/nk_resnet18_200.ckpt```
+```checkpoint_sample/nk_resnet18_200.ckpt```  
+
+In our environment, this took 41.79 seconds per each epoch.  
 
 
 ## Step 2. Clustering
@@ -135,7 +137,9 @@ score of cluster 20 in rural is 0.37596616
 
 Saved Model Example
 
-```checkpoint_sample/ckpt_cluster_nk_50_pretrained.t7```
+```checkpoint_sample/ckpt_cluster_nk_50_pretrained.t7```  
+
+In our environment, this took 556.49 seconds per each epoch.  
 
 ### 2) Decide number of clusters
 
@@ -175,4 +179,6 @@ Example
 
 Clustering Result Example
 
-```data_sample/cluster_nk_11_11```
+```data_sample/cluster_nk_11_11```  
+
+In our environment, this took 1535.09 seconds for running the entire progress.  

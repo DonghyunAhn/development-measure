@@ -44,4 +44,6 @@ Scoring Result Example
 
 Saved Model Example
 
-```checkpoint_sample/final_nk.ckpt```
+```checkpoint_sample/final_nk.ckpt```  
+
+In our environment, this took 13.94 seconds per each epoch.  
