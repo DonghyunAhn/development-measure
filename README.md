@@ -45,9 +45,9 @@ please follow the instructions provided at the links above.
 
 ### Module dependencies
 
-This code has been tested and confirmed to be reproducible with ![Python Version](https://img.shields.io/badge/Python-3.7.10%2B-blue) or higher versions, and has been developed using ![CUDA Version](https://img.shields.io/badge/CUDA-10.0-blue).  
+This code has been tested and confirmed to be reproducible with ![Python Version](https://img.shields.io/badge/Python-3.7.10%2B-blue) or higher versions, and has been developed using ![CUDA Version](https://img.shields.io/badge/CUDA-11.7-blue).  
 
-Also, all code has been tested on the following environment :
+Also, all code has been tested on the following environment (as we wrote in requirements.txt):
 ```
 torch==1.11.0
 torchvision==0.8.2
@@ -62,10 +62,15 @@ opencv-python==4.7.0.72
 faiss-cpu==1.7.3
 faiss-gpu==1.7.2
 ```
+However, certain module versions may cause dependency issues (as of April 11, 2023).  
 
-Following command can replicate the full environment :
+Therefore, I suggest following the command below:  
 
-```pip install -r requirements.txt```
+```
+conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install scipy scikit-learn scikit-image geopandas opencv-python faiss-cpu faiss-gpu
+```
+The overall progress will take less than 30 minutes for the normal desktop computers.  
 
 ---  
 
