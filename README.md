@@ -57,7 +57,7 @@ sklearn==0.23.2
 scikit-image==0.19.2
 pandas==1.1.4
 geopandas==0.10.2
-Pillow=8.2.0
+Pillow==8.2.0
 opencv-python==4.7.0.72
 faiss-cpu==1.7.3
 faiss-gpu==1.7.2
